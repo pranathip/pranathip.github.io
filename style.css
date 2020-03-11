@@ -1,0 +1,115 @@
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	/*font-size: 60px;*/
+	font-family: "Proxima Nova Medium";
+	color: #454545;
+	text-align: left;
+	padding: 15px 0;
+	margin-top: 30px;
+}
+
+.main {
+	padding: 250px 0;
+	margin-left: 30px;
+	margin-right: 30px;
+    font-family: "Proxima Nova Medium";
+    background-color: black; 
+
+}
+
+h2 {
+	font-size: 50px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  height: 550px;
+  color: black;
+  background-size: cover;
+  background-position: center;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+#contact_header {
+	height: 150px;
+	background-color: #EFE7F7;
+}
+
+#contact {
+	padding: 300px 0;
+}
+
+#bar {
+	font-family: "Proxima Nova Medium";
+	padding: 20px;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+     color:#A28EB4; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.navbar-custom {
+	font-family: "Proxima Nova Medium";
+	color: #454545;
+	font-size: 12px;
+	background-color: #FFFFFF;
+	border-color: white;
+}
+.nav a {
+	font-size: 1.3em !important;
+}
+.nav li {
+	padding-top: 5px;
+	padding-right: 5px;
+}
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
+    background-color: #FFFFFF;
+    color: #70AD47;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+    color: #454545;
+    background-color: #FFFFFF;
+}
+b {
+    border-bottom: 3px solid #70AD47;
+    padding: 0 0 1px;
+}

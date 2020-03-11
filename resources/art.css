@@ -1,0 +1,65 @@
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	/*font-size: 60px;*/
+	font-family: Bodoni 72, serif;
+	/*color: #707070; */
+	text-align: left;
+	padding: 15px 0;
+	margin-top: 30px;
+}
+
+#left
+{
+    margin-left: 8px;
+ 	margin-right: 8px;	
+}
+
+#right
+{
+    margin-left: 8px;
+ 	margin-right: 8px;
+}
+
+#mid
+{
+    margin-left: 8px;
+ 	margin-right: 8px;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#circusstatement {
+	width: 100%;
+}
+
+#bar {
+	padding: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+     color:#A28EB4; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
