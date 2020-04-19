@@ -14,7 +14,7 @@ body {
 
 h1 {
 	/*font-size: 60px;*/
-	font-family: "Proxima Nova";
+	font-family: 'Proxima Nova';
 	color: #454545;
 	text-align: left;
 	padding: 15px 0;
@@ -25,7 +25,7 @@ h1 {
 	padding: 250px 0;
 	margin-left: 30px;
 	margin-right: 30px;
-    font-family: "Proxima Nova";
+    font-family: 'Proxima Nova';
     background-color: black; 
 
 }
@@ -76,7 +76,7 @@ p {
 }
 
 #bar {
-	font-family: "Proxima Nova";
+	font-family: 'Proxima Nova';
 	padding: 20px;
 }
 
@@ -93,7 +93,7 @@ a:hover {
 }
 
 .navbar-custom {
-	font-family: "Proxima Nova";
+	font-family: 'Proxima Nova';
 	color: #454545;
 	font-size: 12px;
 	background-color: #FFFFFF;
