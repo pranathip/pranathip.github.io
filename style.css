@@ -1,7 +1,13 @@
 @font-face {
   font-family: 'Proxima Nova';
-  src: url('ProximaNova-Regular.otf') format('opentype');
+  src: url('fonts/ProximaNova-Regular.otf') format('opentype');
   font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('fonts/Proxima Nova Bold.otf') format('opentype');
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -77,6 +83,7 @@ p {
 
 #bar {
 	font-family: 'Proxima Nova';
+  font-weight: bold;
 	padding: 20px;
 }
 
