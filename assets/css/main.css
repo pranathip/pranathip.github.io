@@ -2705,7 +2705,7 @@ input, select, textarea {
 				}
 
 				.tiles article > a:hover {
-					color: #FFFFFF !important;
+					color: #585858 !important;
                     opacity:1;
 				}
 
@@ -2761,7 +2761,7 @@ input, select, textarea {
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
-					background-color: #70AD47;
+					background-color: #FFFFFF;
 					opacity: 0.9;
 				}
 
