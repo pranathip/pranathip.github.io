@@ -1610,3 +1610,36 @@ li a {
 li a:hover {
   background-color: #d8dfed;
 }
+
+
+/* about_cropped*/
+/*.image-cropper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -7%;
+  height: 130%;
+  width: auto;
+}*/
+
+/*about2*/
+.image-cropper {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -10%;
+  height: 115%;
+  width: auto;
+}
