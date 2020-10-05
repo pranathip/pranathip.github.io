@@ -8,9 +8,9 @@
 <meta property="og:title" content="Pranathi Peri" />
 <meta property="og:description" content="" />
 <meta property="og:locale" content="en_US" />
-<meta property="og:site_name" content="The Hype Advisor" />
-<meta name="image" property="og:image" content="https://pranathiperi.me/img/ha1.png" />
-<meta property="og:url" content="https://pranathiperi.me/ha.html" />
+<meta property="og:site_name" content="DeadStock" />
+<meta name="image" property="og:image" content="https://pranathiperi.me/img/ds1.png" />
+<meta property="og:url" content="https://pranathiperi.me/ds.html" />
 <meta property="og:image:width" content="50" />
 <meta property="og:image:height" content="50" />
 <link href="img/favicon.ico" rel="shortcut icon">
@@ -37,9 +37,10 @@
   gtag('config', 'UA-165298698-1');
 </script>
 
+
 </head>
 <body>
-
+    
 <ul>
   <li><a href="index.html">home</a></li>
   <li><a href="about.html">about</a></li>
@@ -59,30 +60,47 @@
 <img data-src="img/habanner.png" class="hero-image fade-in delay">
 <h1 class="text-left fade-in delay">The Hype Advisor - Mobile Application</h1>
 <p class="text-left fade-in delay"><span style="color: #b0ceff; font-family:'aperculight'">UX DESIGN MOCKUP • CONTRACT PROJECT • JANUARY 2020</span></p>
+<br>
+<br>
 <div class="process-text closer">
 <p class="text-left fade-in delay"><span style='font-family: apercu-boldbold'>Background:</span> The Hype Advisor is a hedgefund that aims to democratize access to investment in the streetwear market.</p>
 <p class="text-left fade-in delay"><span style='font-family: apercu-boldbold'>Objective:</span> The objective of this project was to create an interactive mockup that shows the design and usability of a HA mobile app that allows users to monitor the changing features of their investment.</p>
-<p class="text-left fade-in delay"><span style='font-family: apercu-boldbold'>Skills/Tools Involved:</span> Procreate (low fidelity sketches), InVision Design (high fidelity wireframes), Client Collaboratioin, User Research, Visual Design, Rapid Prototyping</p>
-
+<br>
+    
+<div class="principle-par-cont">
+<p class=main-text>
+<span class="section-list-item">Phase 1: Design</span>
+<br>Started by laying out usability params and capabilites, laid out screen archetypes, used Procreate to sketch initial wireframe. Progressed to InVision and Figma to create more solid wireframes and mockups to pass on to implementation.
+</p>
+<p class=main-text>
+<span class="section-list-item">Phase 2: Scraper</span>
+<br>Due to the non-existence of a Sneaker API to get data from, turned to creating my own StockX sneaker scraper. Used Selenium and BeautifulSoup to scrape Jordan 1 Data (test subset of ~800 sneakers) and loaded the information into a JSON file.
+</p>
+<p class=main-text>
+<span class="section-list-item">Phase 3: iOS Engineering</span>
+<br>Used Objective-C and Parse backend to implement the application. Involved creating custom Sneaker and User objects, User Authentication, and calls to News API to display sneaker news data. Visit <a hre="https://github.com/pranathip/DeadStock"><span class="section-list-item">this link</span></a> for more info on technical implementation.
+</p>
+</div>
 <p class="text-left fade-in delay"><span style='font-family: apercu-boldbold'>Key Application Design Features:</span></p>
-    <li>User registration/sign-in</li>
-    <li>Account Overview: showes the user's current capital, profit, and return over a given time period along with relevant graphics</li>
-    <li>Investment Breakdown: interactive pie-chart graphic that displays investment percentages of each show purchased, details on number/margin of capital used on a specific type of shoe, etc.</li>
-    <li>Investment Details: when tapping on a specific sneaker shows a breakdown of the shoe's price fluctuation over a given period of time, details about size/number/price purchased at, and historical facts surrounding the shoe's creation</li>
-    <li>News: top and relevant sneaker stories (similar to news tab on Robinhood)</li>
-
+<li>>User registration/sign-in</li>
+<li>Account Overview: showes the user's current capital, profit, and return over a given time period along with relevant graphics</li>
+<li>Investment Breakdown: interactive pie-chart graphic that displays investment percentages of each show purchased, details on number/margin of capital used on a specific type of shoe, etc.</li>
+<li>Investment Details: when tapping on a specific sneaker shows a breakdown of the shoe's price fluctuation over a given period of time, details about size/number/price purchased at, and historical facts surrounding the shoe's creation</li>
+<li>News: top and relevant sneaker stories (similar to how news is displayed on the Robinhood application interface)</li>
 
 <br>  
-<!--<p class="text-left fade-in delay"><span style='font-family: apercu-boldbold'>Low Fidelity Sketch:</span></p>-->
-<img data-src="img/hawireframe.png" class="hero-image fade-in delay">
+<br>
+
+<p class="text-left fade-in delay"><span style='font-family: apercu-boldbold'>Low Fidelity Sketch:</span></p>
+<img data-src="img/dswf1.png" class="hero-image fade-in delay">
 <br>
 <p class="text-left fade-in delay"><span style='font-family: apercu-boldbold'>High Fidelity Wireframe:</span></p>
-<img data-src="img/hainvision.png" class="hero-image fade-in delay">
+<img data-src="img/dswf2.png" class="hero-image fade-in delay">
 <br>
 <!-- insert video if possible -->
-<p class="text-left fade-in delay"><span style='font-family: apercu-boldbold'>High Fidelity Interactive Wireframe:</span></p>
+<p class="text-left fade-in delay"><span style='font-family: apercu-boldbold'>XCode Implementation:</span></p>
+<img data-src="img/dsxcode.png" class="hero-image fade-in delay">
 </div>
-<img data-src="https://recordit.co/KfG5gGnOHw.gif" class="subhero-image fade-in delay" style="width: 30%">
 </div>
 
 
