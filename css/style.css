@@ -1480,11 +1480,11 @@ footer .footer-cont .footer-image-cont h1 {
   border-radius: 4px;
   border: 2px solid #b0ceff;
   color: #222222;
-  padding: 15px 32px;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 12px;
 }
 .button-disabled {
   cursor: not-allowed;
