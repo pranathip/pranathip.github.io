@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Pranathi Peri</title>
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<head>
+<!-- Properties -->
+<meta property="og:title" content="Pranathi Peri" />
+<meta property="og:description" content="" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="DeadStock" />
+<meta name="image" property="og:image" content="https://pranathiperi.me/img/ds1.png" />
+<meta property="og:url" content="https://pranathiperi.me/ds.html" />
+<meta property="og:image:width" content="50" />
+<meta property="og:image:height" content="50" />
+<link href="img/favicon.ico" rel="shortcut icon">
+
+<!-- Style sheets -->
+<link href="css/style2.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/webfontkit/stylesheet.css">
+<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.1.0/jquery.lazyloadxt.fadein.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.1.0/jquery.lazyloadxt.extra.js"></script>
+
+<!-- Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165298698-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-165298698-1');
+</script>
+
+
+</head>
+<body>
+
+<!-- ratchet af gap
+<footer>
+<div class="footer-home">
+<h1 class="text-left fade-in delay"></h1>
+</div>
+</footer> -->
+
+<div class="wrapper fade-in delay" style="padding: 0px 0px 0px 0px">
+    <br>
+<br>
+<div style="padding: 0px 0px 60px 10px">
+<a href="index.html" class="button-2">BACK TO PORTFOLIO</a>
+</div>
+
+<img data-src="img/dsbanner.png" class="hero-image fade-in delay">
+<h1 class="text-left fade-in delay">DeadStock - Mobile Application</h1>
+<p class="text-left fade-in delay"><span style="color: #b0ceff; font-family:'aperculight'">UX DESIGN AND iOS ENGINEERING • FACEBOOK UNIVERSITY ENGINEERING INTERN • SUMMER 2020</span></p>
+<a href="https://github.com/pranathip/DeadStock" class="button">GITHUB REPO</a>
+<br>
+<br>
+<div class="process-text closer">
+<p class="text-left fade-in delay"><span style='font-family: apercu-boldbold'>Background:</span> During my University Engineering Internship at Facebok, I was tasked with the challenge of designing, engineering, and implementing an industry-level app idea in about 10 weeks. Me, being the sneakerhead that I am, decided to create <strong>DeadStock</strong>, an application that allows users to see how the sneaker market is doing, track sneaker pricing history, and help investors/buyers alike plan their next purchase.</p>
+<p class="text-left fade-in delay">Inspired by Apple's "stocks" app, DeadStock is a simply designed app meant purely for information consumption rather than a client for purchase. When compared to StockX, DeadStock provides similar sneaker pricing metrics, but without the added buying/selling/bidding features for the sake of ease and simplicity.</p>
+
+<p class="text-left fade-in delay"><span style='font-family: apercu-boldbold'>Objective:</span> The objective of this project was to design and implement an industry-level sneaker "stocks" app.</p>
+<br>
+<div class="principle-par-cont">
+<p class=main-text>
+<span class="section-list-item">Phase 1: Design</span>
+<br>Started by laying out usability params and capabilites, laid out screen archetypes, used Procreate to sketch initial wireframe. Progressed to InVision and Figma to create more solid wireframes and mockups to pass on to implementation.
+</p>
+<p class=main-text>
+<span class="section-list-item">Phase 2: Scraper</span>
+<br>Due to the non-existence of a Sneaker API to get data from, turned to creating my own StockX sneaker scraper. Used Selenium and BeautifulSoup to scrape Jordan 1 Data (test subset of ~800 sneakers) and loaded the information into a JSON file.
+</p>
+<p class=main-text>
+<span class="section-list-item">Phase 3: iOS Engineering</span>
+<br>Used Objective-C and Parse backend to implement the application. Involved creating custom Sneaker and User objects, User Authentication, and calls to News API to display sneaker news data. Visit <a hre="https://github.com/pranathip/DeadStock"><span class="section-list-item">this link</span></a> for more info on technical implementation.
+</p>
+</div>
+    
+
+<p class="text-left fade-in delay"><span style='font-family: apercu-boldbold'>Screen Archetypes:</span></p>
+<li><strong>Log-In Screen:</strong> user can log into an existing account</li>
+<li><strong>Registration Screen:</strong> user can register a new profile w/ new login credentials, blocks registration of profile with already existing email or username and prompts user to re-enter</li>
+<li><strong>User Profile Screen:</strong> user can view and edit their profile elements like profile picture, username, password, email, etc.</li>
+<li><strong>Sneaker Dashboard Screen:</strong> user can search for specific sneakers and have them actively displayed on their dashboard</li>
+<li><strong>Sneaker Search Screen:</strong> navigated to upon tapping "add sneaker" feature on the Sneaker Dashboard Screen, pulls up a list of sneakers to select from</li>
+<li><strong>Sneaker Details Screen:</strong> displays organized pricing metrics (52-week pricing, last sale, volatility, colorway, etc.) for a specific sneaker</li>
+<li><strong>News Screen:</strong> user can view top stories from sneaker news sources like solecollector.com and sneakernews.com</li>
+<li><strong>News Details Screen:</strong> upon tapping on an article from the News Screen, the user can view the entire article, author, and publication date</li>
+
+<br>  
+<p class="text-left fade-in delay"><span style='font-family: apercu-boldbold'>Low Fidelity Sketch:</span></p>
+<img data-src="img/dswf1.png" class="hero-image fade-in delay">
+<br>
+<p class="text-left fade-in delay"><span style='font-family: apercu-boldbold'>High Fidelity Wireframe:</span></p>
+<img data-src="img/dswf2.png" class="hero-image fade-in delay">
+<br>
+<!-- insert video if possible -->
+<p class="text-left fade-in delay"><span style='font-family: apercu-boldbold'>XCode Implementation:</span></p>
+<img data-src="img/dsxcode.png" class="hero-image fade-in delay">
+</div>
+</div>
+
+
+
+<footer>
+<div class="footer-home">
+<h1 class="text-left">Connect with me!</h1>
+<p class="text-left">Shoot me an <a href="mailto:pranathiperi@berkeley.edu" target="_blank" style="color:#b0ceff">email</a> or find me on <a href="https://github.com/pranathip" target="_blank" style="color:#b0ceff">github</a> or <a href="https://linkedin.com/in/pranathip" target="_blank" style="color:#b0ceff">linkedin</a>!
+</p>
+</div>
+</footer>
+    
+
+</body>
+</html>

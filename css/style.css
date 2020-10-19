@@ -84,7 +84,7 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'aperculight';
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
@@ -142,7 +142,7 @@ table {
 .section-subheader.case-study-subheader {
   font-weight: normal;
   font-style: normal;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'apercu-boldbold';
   margin-top: 12px;
   font-size: 18px;
   line-height: 30px;
@@ -152,7 +152,7 @@ table {
 
 .section-subheader.about-me {
   padding-bottom: 12px !important;
-  font-family: -apple-system-headline, BlinkMacSystemFont, sans-serif;
+  font-family: 'apercu-boldbold';
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -162,7 +162,7 @@ table {
 .section-sub-subheader {
   font-size: 28px;
   line-height: 33px;
-  font-family: -apple-system-headline, BlinkMacSystemFont, sans-serif;
+  font-family: 'apercu-boldbold';
   font-weight: 700; }
 
 .section-sub-subheader.case-study {
@@ -254,7 +254,7 @@ h2 {
 .section-subheader.case-study-subheader {
   font-weight: normal;
   font-style: normal;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;;
+  font-family: 'aperculight'
   margin-top: 12px;
   font-size: 18px;
   line-height: 30px;
@@ -264,7 +264,7 @@ h2 {
 
 .section-subheader.about-me {
   padding-bottom: 12px !important;
-  font-family: -apple-system-headline, BlinkMacSystemFont, sans-serif;
+  font-family: 'aperculight';
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.17px;
@@ -273,7 +273,7 @@ h2 {
 .section-sub-subheader {
   font-size: 28px;
   line-height: 33px;
-  font-family: -apple-system-headline, BlinkMacSystemFont, sans-serif;
+  font-family: 'aperculight';
   font-weight: 700; }
 
 .section-sub-subheader.case-study {
@@ -722,7 +722,7 @@ a {
   line-height: 35px; }
 
 .principle-par-cont p span {
-  font-family: -apple-system-headline, BlinkMacSystemFont, sans-serif;
+  font-family: 'apercu-boldbold';
   font-weight: 700;
   font-size: 16px;
   line-height: 27px; }
@@ -744,7 +744,7 @@ a {
 
 .experience-container .experience-list p span {
   display: block;
-  font-family: -apple-system-headline, BlinkMacSystemFont, sans-serif;
+  font-family: 'apercu-boldbold';
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 0.17px; }
@@ -769,7 +769,7 @@ a {
   padding-bottom: 30px; }
 
 .skills-subheader {
-  font-family: -apple-system-headline, BlinkMacSystemFont, sans-serif;
+  font-family: 'apercu-boldbold';
   font-weight: 700;}
 
 .view-resume {
@@ -869,7 +869,7 @@ a {
   padding: 20px; }
 
 .recent-container .recent-info-modal .recent-copy-container p:nth-child(1) {
-  font-family: -apple-system-headline, BlinkMacSystemFont, sans-serif;
+  font-family: 'aperculight';
   font-weight: 700;
   padding-bottom: 5px;
   line-height: 24px;
