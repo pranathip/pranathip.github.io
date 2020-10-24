@@ -646,6 +646,14 @@ line-height: 24px;
     background-position: center center;
     margin-top: 0 !important;
 }
+.header_image1 {
+    width: 100%;
+    height: 40em;
+    background: url('../img/habanner3.png');
+    background-size: cover;
+    background-position: center center;
+    margin-top: 0 !important;
+}
 
 @media (min-width: 550px) {  
 .header_image{
