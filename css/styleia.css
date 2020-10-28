@@ -48,29 +48,6 @@ footer .footer-home p {
   color: #333333 !important;
   letter-spacing: 0.26px; }
 
-footer .footer-home p a, .mailchimp-container a {
-  color: #333333;
-  border-bottom: 1px solid #ababab;
-  display: inline;
-  position: relative;
-  overflow: hidden; }
-
-footer .footer-home p a:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  right: 100%;
-  bottom: 0px;
-  background: #000;
-  height: 1px;
-  transition-property: left right;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out;
-  margin-bottom: -1px; }
-
-footer .footer-home p a:hover:after, footer .footer-home p a:focus:after, footer .footer-home p a:active:after {
-  right: 0; }
 
 .container-home {
   display: flex;
@@ -120,23 +97,6 @@ footer .footer-home p a:hover:after, footer .footer-home p a:focus:after, footer
   display: inline;
   position: relative;
   overflow: hidden; }
-
-.container-home.top .description p a:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  right: 100%;
-  bottom: 0px;
-  background: #000;
-  height: 1px;
-  transition-property: left right;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out;
-  margin-bottom: -1px; }
-
-.container-home.top .description p a:hover:after, .container-home.top .description p a:focus:after, .container-home.top .description p a:active:after {
-  right: 0; }
 
 .container-home.top .image {
   margin-top: 61px;
@@ -294,7 +254,7 @@ footer .footer-home p a:hover:after, footer .footer-home p a:focus:after, footer
     padding-top: 30px; } }
 
 @media screen and (max-width: 768px) {
-  .facebook .container-home.above .image img, .mailchimp .container-home.above .image img {
+  .container-home.above .image img, .container-home.above .image img {
     width: 110%;
     margin-right: -15%; }
   .container-home.top {
@@ -480,17 +440,13 @@ footer .footer-home p a:hover:after, footer .footer-home p a:focus:after, footer
   .desc-image-logo {
     margin: 0 auto;
     margin-top: 20px; }
-  .facebook .container-home.above .image img, .mailchimp .container-home.above .image img {
+  ..container-home.above .image img, .container-home.above .image img {
     width: 110%;
     margin-right: -15%; }
 }
 
-.mailchimp, .facebook {
-  margin-bottom: 10px;
-  position: relative;
-}
 
-.mailchimp .container-home.above .image img, .facebook .container-home.above .image img{
+.container-home.above .image img, .container-home.above .image img{
   max-width: none;
   height: auto;
 }
@@ -508,16 +464,7 @@ footer .footer-home p a:hover:after, footer .footer-home p a:focus:after, footer
 .description .section a {
   line-height: 43px !important;
 }
-.robinhood .container-home.above {
-  padding: 80px 0 80px 0;
-}
-.desc-image-logo {
-  width: 36px;
-  margin-bottom: 15px;
-}
-.facebook .container-home, .mailchimp .container-home{
-  overflow: visible;
-}
+
 body {
     overflow-x: hidden;
 }
