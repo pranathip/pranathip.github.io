@@ -671,6 +671,10 @@ a {
   display: inline-block;
   font-size: 14px;
 }
+.button-2:hover {
+  background-color: #b0ceff;
+  color: white;
+}
 .button-disabled {
   cursor: not-allowed;
   pointer-events: none;
