@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Pranathi Peri - About</title>
+
+	<!-- script and stylesheets -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<script src="js/nanobar.min.js"></script>
+
+	<!-- favicon -->
+	<link rel="icon" type="image/png" href="img/favicon.png"/>
+</head>
+<body>
+
+	<nav id="nav" class="navbar navbar-expand-lg navbar-light about-navbar" style="display:none">
+	  <a class="navbar-brand" href="index.html"><img src="img/brand.png" width="145"/></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="about-navbar fa fa-bars"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    <div class="navbar-nav ml-auto">
+	      <li><a class="nav-item nav-link active" href="work.html">Work</a></li>
+	      <li><a class="nav-item nav-link" href="play.html">Play</a></li>
+	      <li><a class="nav-item nav-link" href="about.html">About</a></li>
+	    </div>
+	  </div>
+	</nav>
+
+	<script>
+		$(document).ready(function() {
+  		$("#nav").slideDown('slow');
+		});
+	</script>
+
+	<div class="work-wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+	      			<h1>Work</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- work filter -->
+<div id="filter" class="filter">
+<div class="container">
+		 <div class="row">
+		   <div class="col-2">
+		   	<button class="filterbutton active" onclick="filterSelection('all');">All</button>
+		   </div>
+		   <div class="col-2">
+		   	<button class="filterbutton" onclick="filterSelection('mobile')">Mobile</button>
+		   </div>
+		   <div class="col-2">
+		   	<button class="filterbutton" onclick="filterSelection('desktop')">Desktop</button>
+		   </div>
+		 </div>
+	</div>
+</div>
+
+<!-- actual work -->
+<div class="work-cells">
+	<div class="container">
+		 <div class="row items">
+		   <div class="filterDiv mobile col">
+		     <a href="uhoh.html"><img src="img/deadstock.jpg" width="500px"/></a>
+		   </div>
+		   <div class="filterDiv mobile col">
+		   	<a href="uhoh.html"><img src="img/tha.jpg" width="500px"/></a>
+		   </div>
+		 </div>
+	</div>
+	<div class="container">
+		 <div class="row items">
+		   <div class="filterDiv mobile col">
+		     <a href="uhoh.html"><img src="img/spotify.jpg" width="500px"/></a>
+		   </div>
+		   <div class="filterDiv mobile col">
+		   	<a href="uhoh.html"><img src="img/bm.jpg" width="500px"/></a>
+		   </div>
+		 </div>
+	</div>
+	<div class="container">
+		 <div class="row">
+		   <div class="filterDiv desktop col">
+		     <a href="uhoh.html"><img src="img/bhavaanis.jpg" width="500px"/></a>
+		   </div>
+		   <div class="filterDiv mobile col">
+		   	<!--<img src="img/bm.jpg" width="500px"/>-->
+		   </div>
+		 </div>
+	</div>
+</div>
+
+<footer>
+	<script>
+		var options = {
+		classname: 'loading-bar',
+	    id: 'loadingbar'
+		};
+		var nanobar = new Nanobar( options );
+		nanobar.go( 30 );
+		nanobar.go( 76 );
+		nanobar.go(100);
+	</script>
+
+	<script>
+		filterSelection('all')
+
+		function filterSelection(c) {
+		  var x, i;
+		  x = document.getElementsByClassName("filterDiv");
+		  if (c == 'all') c = '';
+		  for (i = 0; i < x.length; i++) {
+		    w3RemoveClass(x[i], "show");
+		    w3AddClass(x[i], "hide");
+		    if (x[i].className.indexOf(c) > -1)  {
+		    	w3RemoveClass(x[i], "hide");
+		    	w3AddClass(x[i], "show");
+		    	console.log('showing')
+		    }
+		  }
+		}
+
+		function w3AddClass(element, name) {
+		  var i, arr1, arr2;
+		  arr1 = element.className.split(" ");
+		  arr2 = name.split(" ");
+		  for (i = 0; i < arr2.length; i++) {
+		    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+		  }
+		}
+
+		function w3RemoveClass(element, name) {
+		  var i, arr1, arr2;
+		  arr1 = element.className.split(" ");
+		  arr2 = name.split(" ");
+		  for (i = 0; i < arr2.length; i++) {
+		    while (arr1.indexOf(arr2[i]) > -1) {
+		      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+		    }
+		  }
+		  element.className = arr1.join(" ");
+		}
+
+		// Add active class to the current button (highlight it)
+		var btnContainer = document.getElementById("filter");
+		var btns = btnContainer.getElementsByClassName("filterbutton");
+		for (var i = 0; i < btns.length; i++) {
+		  btns[i].addEventListener("click", function(){
+		    var current = document.getElementsByClassName("filterbutton active");
+		    current[0].className = current[0].className.replace(" active", "");
+		    this.className += " active";
+		  });
+		}
+	</script>
+
+	<div class="nanobar loading-bar" id="loadingbar" style="position: fixed;">
+    	<div class="bar"></div>
+	</div>
+
+</footer>
+
+</body>
+</html>

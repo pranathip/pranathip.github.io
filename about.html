@@ -1,100 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>Pranathi Peri</title>
-<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
 <head>
-<!-- Properties -->
-<meta property="og:title" content="Pranathi Peri" />
-<meta property="og:description" content="" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:site_name" content="Pranathi Peri - About" />
-<meta name="image" property="og:image" content="https://pranathiperi.me/img/front.png" />
-<meta property="og:url" content="https://pranathiperi.me/about.html" />
-<meta property="og:image:width" content="50" />
-<meta property="og:image:height" content="50" />
-<link href="img/favicon.ico" rel="shortcut icon">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Pranathi Peri - About</title>
+	<!-- script and stylesheets -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<script src="js/nanobar.min.js"></script>
 
-<!-- Style sheets -->
-<link href="css/styleia.css" rel="stylesheet" type="text/css">
-<link href="css/style.css" rel="stylesheet">
-<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/webfontkit/stylesheet.css">
-<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
-
-<!-- Analytics -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165298698-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-165298698-1');
-</script>
-
+	<!-- favicon -->
+	<link rel="icon" type="image/png" href="img/favicon.png"/>
 </head>
 <body>
 
+	<nav id="nav" class="navbar navbar-expand-lg navbar-light about-navbar" style="display:none">
+	  <a class="navbar-brand" href="index.html"><img src="img/brand.png" width="145"/></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="about-navbar fa fa-bars"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+	    <div class="navbar-nav ml-auto">
+	      <li><a class="nav-item nav-link" href="work.html">Work</a></li>
+	      <li><a class="nav-item nav-link" href="play.html">Play</a></li>
+	      <li><a class="nav-item nav-link active" href="about.html">About</a></li>
+	    </div>
+	  </div>
+	</nav>
+
+	<script>
+		$(document).ready(function() {
+  		$("#nav").slideDown('slow');
+		});
+	</script>
+
+<div class="about-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-7" style="padding-right: 30px">
+      			<h1>About</h1>
+      			<br>
+      			<h2>Hey there! My name is Pranathi and I'm a junior at UC Berkeley studying <a id="blue" href="https://eecs.berkeley.edu/">Electrical Engineering & Computer Science</a> with a <a id="blue" href="https://bcdi.berkeley.edu/">certificate in design</a>.</h2>
+      			<br>
+      			<h2>For as long as I can remember, I've loved art and design - UX/product design has 
+      			allowed me to combine my skills in tech with those in illustration/design to produce
+      			beautiful end-to-end interfaces.</h2>
+      			<br>
+      			<h2>In my free time, I love running, playing with my lab-shepherd mix named Nora, and 
+      			buying cool sneakers.</h2>
+      			<br>
+      			<h2>Want to get in touch? <a id="pink" href="mailto:pranathiperi@berkeley.edu?Subject=Hello!">Let's chat!</a></h2>
+      			<br>
+      			<button onclick="window.open('assets/resume.pdf');" class="about-button" onmouseover="hover(this);" onmouseout="unhover(this);">
+      				<i class="fa fa-cloud-download"></i>
+      				R E S U M E
+      			</button>
+			</div>
+			<div class="col">
+      			<img src="img/about.JPG" width="98%" style="border-radius:12px"/>
+			</div>
+		</div>
+	</div>
+</div>
+
 <footer>
-<div class="footer-home">
-    <div class=" image-cropper">
-        <img src="img/about2.JPG" alt="avatar" class="profile-pic">
-    </div>
-    <br>
-<h1 class="text-left ">hey there, i'm <span style="color: #b0ceff; font-family: 'apercu-boldbold'; ">pranathi</span></h1>
-                    <div class=" text-left">
-                    <br>
-                    <br>
-                    <a href="index.html" class="button-2">PORTFOLIO</a>
-                        &nbsp;
-                    <a href="assets/Pranathi_Peri_Resume_FA20D.pdf" class="button-2">RESUME</a>
-                        &nbsp;
-                    <a href="https://linkedin.com/in/pranathip" class="button-2">LINKEDIN</a>
-                </div>
-</div>
+	<script>
+		var options = {
+		classname: 'loading-bar',
+	    id: 'loadingbar'
+		};
+		var nanobar = new Nanobar( options );
+		nanobar.go( 30 );
+		nanobar.go( 76 );
+		nanobar.go(100);
+	</script>
+	<div class="nanobar loading-bar" id="loadingbar" style="position: fixed;">
+    	<div class="bar"></div>
+	</div>
 </footer>
-
-<div class="wrapper" style="padding: 0px 0px 0px 0px">
-
-<br>
-<h1 class="text-left ">a little bit about me...</h1>
-<div class="process-text closer">
-<p class="text-left ">hey there! i'm a third year at uc berkeley studying electrical engineering and computer science with a certificate in visual/interactive design. as a software developer interested in artistic applications, beautiful interfaces, and aesthetic user experiences, i have found a deep passion for UI/UX, product, and interactive design.</p>
-<br>
-<p class="text-left ">after working at facebook and designing, developing, and implementing my own mobile app, i took a liking towards iOS mobile development, ceating end-to-end user interfaces, and supplementary data analytics - creating appealing data visualizations is my specialty. i've dellivered several mockups and ideations of products to happy clients, and my background in software development has helped me to not only make these mockups visually pleasing, but easily implementable.</p>  
-<br>
-<p class="text-left ">in addition to product, UI/UX and mobile design, i love to draw! a majority of my works include digital black and white line art and tattoo design commissions. i'm a huge fan of japanese-style wave art, and my favorite painting is the great wave of kanagawa (you may see small references to it throughout my portfolio). i'm also very passionate about sneakers and fashion - the subject of some of my most recent projects.</p>
-<br>
-<p class="text-left ">i'm always looking for opportunities to design and implement unique user products and experiences - please reach out if you think this would be a good fit!</p>
-</div>
-<br>
-<h1 class="text-left ">experience</h1><br>
-<h2 class="text-left "><span style="font-size:20px; font-family:'apercu-boldbold'">MiiR</span></h2>
-<p class="text-left "><span style="color: #b0ceff; font-family:'aperculight'">CONTRACT DESIGN PROJECT MANAGER • PRESENT</span></p>
-<h2 class="text-left "><span style="font-size:20px; font-family:'apercu-boldbold'">Berkeley Mobile</span></h2>
-<p class="text-left "><span style="color: #b0ceff; font-family:'aperculight'">UX DESIGNER • PRESENT</span></p>
-    
-<h2 class="text-left "><span style="font-size:20px; font-family:'apercu-boldbold'">Facebook</span></h2>
-<p class="text-left "><span style="color: #b0ceff; font-family:'aperculight'">UNIVERSITY ENGINEERING INTERN • SUMMER 2020</span></p>
-    
-<h2 class="text-left "><span style="font-size:20px; font-family:'apercu-boldbold'">Spotify</span></h2>
-<p class="text-left "><span style="color: #b0ceff; font-family:'aperculight'">CONTRACT DESIGN CONSULTANT • FALL 2019</span></p>
-<h2 class="text-left "><span style="font-size:20px; font-family:'apercu-boldbold'">Blue Cheetah Analog Design</span></h2>
-<p class="text-left "><span style="color: #b0ceff; font-family:'aperculight'">SOFTWARE ENGINEERING INTERN • SUMMER 2019</span></p>
-</div>
-
-<footer>
-<div class="footer-home">
-<h1 class="text-left">Connect with me!</h1>
-<p class="text-left">Shoot me an <a href="mailto:pranathiperi@berkeley.edu" target="_blank" style="color:#b0ceff">email</a> or find me on <a href="https://github.com/pranathip" target="_blank" style="color:#b0ceff">github</a> or <a href="https://linkedin.com/in/pranathip" target="_blank" style="color:#b0ceff">linkedin</a>!
-</p>
-</div>
-</footer>
-    
 
 </body>
-</html>

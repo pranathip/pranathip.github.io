@@ -1,0 +1,40 @@
+
+@font-face {
+    font-family: 'apercu';
+    src: url('Apercu-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'apercu-light';
+    src: url('Apercu-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'apercu-medium';
+    src: url('Apercu-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'apercu-bold';
+    src: url('Apercu-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
