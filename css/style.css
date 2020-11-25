@@ -185,13 +185,145 @@ button.about-button{
 	color: #454545;
 }
 
+.work-cells img:hover {
+	outline: 3px solid #526CB8;
+	outline-offset: 4px;
+	box-shadow: 11px 11px 0 #FB9B8E;
+}
+
 .row.items {
 	padding-bottom: 50px;
 }
 
-.col img {
+
+/* details wrapper */
+.details-wrapper {
+	padding-top: 80px;
+	padding-bottom: 200px;
+}
+
+.details-wrapper h1 {
+	color: #526CB8;
+	font-size:100px;
+	-webkit-text-stroke: 3px white;
+	text-shadow:
+     4px 4px 0 #FB9B8E;
+}
+
+.details-wrapper h2 {
+	font-family: 'apercu-medium';
+	font-size: 16px;
+	line-height: 30px;
+	color: white;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.details-wrapper h3 {
+	font-family: 'apercu-medium-italic';
+	font-size: 22px;
+	line-height: 30px;
+	color: white;
+	letter-spacing: 2px;
+}
+
+/* overview wrapper */
+.overview {
+	padding-bottom: 30px;
+}
+
+.overview-wrapper {
+	padding-top: 80px;
 
 }
+
+.overview-wrapper#white {
+	padding-top: 80px;
+	background-color: white;
+
+}
+
+.overview-wrapper#pink {
+	padding-top: 80px;
+	background-color: #FB9B8E;
+
+}
+
+.overview-wrapper#white h1 {
+	color: #424242;
+	font-family: 'apercu-medium';
+	font-size: 24px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+
+}
+
+.overview-wrapper#white h2 {
+	color: #424242;
+	font-family: 'apercu-bold';
+	font-size: 30px;
+	letter-spacing: 3px;
+
+}
+
+.overview-wrapper#white p {
+	color: #7B7B7B;
+	font-family: 'apercu';
+	font-size: 20px;
+}
+
+.overview-wrapper#pink h1 {
+	color: white;
+	font-family: 'apercu-medium';
+	font-size: 24px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+
+}
+
+.overview-wrapper#pink p {
+	color: white;
+	font-family: 'apercu';
+	font-size: 20px;
+}
+
+.overview-wrapper a {
+	color: #FB9B8E;
+}
+
+.overview-wrapper a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.overview-wrapper#pink a {
+	color: #526CB8;
+}
+.overview-wrapper#pink a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+button.overview-button{
+  padding-top: 30px;
+  color: white;
+  background-color: #526CB8;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.overview-button i {
+	padding-left: 2px;
+	padding-right: 3px;
+
+}
+
+.overview-button:hover {
+	color: #FB9B8E;
+}
+
 
 /* filter */
 
@@ -258,6 +390,19 @@ button.about-button{
 	color: #FB9B8E !important;
 }
 .about-navbar .navbar-nav > li{
+	margin-top: 1.2em !important;
+	margin-left:1.2em !important;
+	margin-right:1.2em !important;
+}
+
+.details-navbar a:hover{
+	color: #FB9B8E !important;
+}
+.details-navbar .nav-link {
+	color: white !important;
+}
+
+.details-navbar .navbar-nav > li{
 	margin-top: 1.2em !important;
 	margin-left:1.2em !important;
 	margin-right:1.2em !important;

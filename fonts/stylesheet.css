@@ -9,7 +9,6 @@
 
 
 
-
 @font-face {
     font-family: 'apercu-light';
     src: url('Apercu-Light.woff') format('woff');
@@ -24,6 +23,16 @@
 @font-face {
     font-family: 'apercu-medium';
     src: url('Apercu-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'apercu-medium-italic';
+    src: url('Apercu-Medium-Italic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
