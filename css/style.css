@@ -227,6 +227,15 @@ button.about-button{
 	letter-spacing: 2px;
 }
 
+.details-wrapper a {
+	color: #FB9B8E;
+}
+
+.details-wrapper a:hover {
+	color: white;
+	text-decoration: none;
+}
+
 /* overview wrapper */
 .overview {
 	padding-bottom: 30px;
