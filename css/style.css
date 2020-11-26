@@ -195,6 +195,13 @@ button.about-button{
 	padding-bottom: 50px;
 }
 
+/* play wrapper */
+.play-cells {
+	padding-top: 20px;
+	padding-bottom: 100px;
+}
+
+
 
 /* details wrapper */
 .details-wrapper {
