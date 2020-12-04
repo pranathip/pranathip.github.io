@@ -185,6 +185,10 @@ button.about-button{
 	color: #454545;
 }
 
+.work-cells img {
+	transition: 0.2s;
+}
+
 .work-cells img:hover {
 	outline: 3px solid #526CB8;
 	outline-offset: 4px;
