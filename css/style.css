@@ -157,7 +157,7 @@ button.about-button{
 
 .work-wrapper {
 	padding-top: 65px;
-	padding-bottom: 100px;
+	padding-bottom: 20px;
 }
 
 .work-wrapper h1 {
@@ -168,15 +168,17 @@ button.about-button{
 }
 
 .work-wrapper h2 {
-	font-family: 'apercu';
+	padding-top: 10px;
+	font-family: 'apercu-medium-italic';
 	font-size: 20px;
 	line-height: 30px;
-	color: #454545;
+	color: #b5b5b5;
 }
 
 .work-cells {
-	padding-top: 60px;
 	padding-bottom: 100px;
+	padding-left:10%;
+	padding-right: 10%;
 }
 
 .work-cells h1 {

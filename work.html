@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Pranathi Peri - About</title>
+	<title>Pranathi Peri - Work</title>
 	<!-- Properties -->
 	<meta property="og:title" content="Pranathi Peri - Work" />
 	<meta property="og:description" content="" />
@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<link rel="stylesheet" href="css/workstyle.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -67,61 +68,89 @@
 			<div class="row">
 				<div class="col">
 	      			<h1>Work</h1>
+	      			<h2>UX case studies, internship projects, contract design work, and more.</h2>
 				</div>
 			</div>
 		</div>
 	</div>
 
-<!-- work filter -->
-<div id="filter" class="filter">
-<div class="container">
-		 <div class="row">
-		   <div class="col-2">
-		   	<button class="filterbutton active" onclick="filterSelection('all');">All</button>
-		   </div>
-		   <div class="col-2">
-		   	<button class="filterbutton" onclick="filterSelection('mobile')">Mobile</button>
-		   </div>
-		   <div class="col-2">
-		   	<button class="filterbutton" onclick="filterSelection('desktop')">Desktop</button>
-		   </div>
-		 </div>
-	</div>
-</div>
+	<div class="work-cells">
 
-<!-- actual work -->
-<div class="work-cells">
-	<div class="container">
-		 <div class="row items">
-		   <div class="filterDiv mobile col">
-		     <a href="deadstock.html"><img src="img/deadstock.jpg" width="500px"/></a>
-		   </div>
-		   <div class="filterDiv mobile col">
-		   	<a href="tha.html"><img src="img/tha.jpg" width="500px"/></a>
-		   </div>
-		 </div>
-	</div>
-	<div class="container">
-		 <div class="row items">
-		   <div class="filterDiv desktop col">
-		     <a href="piazza.html"><img src="img/piazza.png" height="300px"/></a>
-		   </div>
-		   <div class="filterDiv mobile col">
-		   	<a href="uhoh.html"><img src="img/bm.jpg" height="300px"/></a>
-		   </div>
-		 </div>
-	</div>
-	<div class="container">
-		 <div class="row">
-		   <div class="filterDiv desktop col">
-		     <a href="uhoh.html"><img src="img/bhavaanis.jpg" width="400px"/></a>
-		   </div>
-		   <div class="filterDiv mobile col">
-		   	<img src="img/spotify.jpg" width="500px"/
-		   </div>
-		 </div>
-	</div>
-</div>
+            <!--WORK-->
+            <div id="columns">
+                <div id="showcaseWork">
+                    <div class="item">
+                        <a href="deadstock.html">
+                            <div class="image-box"><img src="img/deadstock.jpg"></div>
+                            
+                            <div class="detail">
+                                <div class="detailTitle">
+                                    <h2>DeadStock - Faceboook (2020)</h2>
+                                    <div class="small">iOS application designed to monitor sneaker prices</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="item">
+                        <a href="tha.html">
+                            <div class="image-box"><img src="img/tha.jpg"></div>
+                            
+                            <div class="detail">
+                                <div class="detailTitle">
+                                    <h2>The Hype Advisor - Contract (2020)</h2>
+                                    <div class="small">Mockup for The Hype Advisor's investment mobile client inspired by Robinhood</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="piazza.html">
+                            <div class="image-box"><img src="img/piazza.png"></div>
+
+                            <div class="detail">
+                                <div class="detailTitle">
+                                    <h2>Piazza Redesign - UX Case Study (2020)</h2>
+                                    <div class="small">A re-haul, analysis and redesign of Piazza's most important features</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="blank"></div>
+
+                <div id="showcaseWork">
+                    <div class="item">
+                        <a href="uhoh.html">
+                            <div class="image-box"><img src="img/bm.jpg"></div>
+                            
+                            <div class="detail">
+                                <div class="detailTitle">
+                                    <h2>Berkeley Mobile - Product Design (2020)</h2>
+                                    <div class="small">Designing features for UC Berkeley's flagship mobile application</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="uhoh.html">
+                            <div class="image-box"><img src="img/bhavaanis.jpg"></div>
+
+                            <div class="detail">
+                                <div class="detailTitle">
+                                    <h2>Bhavaani's Handlooms - eCommerce Web Design (2019)</h2>
+                                    <div class="small">Designing a unqiue brand image and buying platform for Indian Ethnicwear botique in Austin TX</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+        </div>
+
 
 <footer>
 	<script>
@@ -133,56 +162,6 @@
 		nanobar.go( 30 );
 		nanobar.go( 76 );
 		nanobar.go(100);
-	</script>
-
-	<script>
-		filterSelection('all')
-		function filterSelection(c) {
-		  var x, i;
-		  x = document.getElementsByClassName("filterDiv");
-		  if (c == 'all') c = '';
-		  for (i = 0; i < x.length; i++) {
-		    w3RemoveClass(x[i], "show");
-		    w3AddClass(x[i], "hide");
-		    if (x[i].className.indexOf(c) > -1)  {
-		    	w3RemoveClass(x[i], "hide");
-		    	w3AddClass(x[i], "show");
-		    	console.log('showing')
-		    }
-		  }
-		}
-
-		function w3AddClass(element, name) {
-		  var i, arr1, arr2;
-		  arr1 = element.className.split(" ");
-		  arr2 = name.split(" ");
-		  for (i = 0; i < arr2.length; i++) {
-		    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-		  }
-		}
-
-		function w3RemoveClass(element, name) {
-		  var i, arr1, arr2;
-		  arr1 = element.className.split(" ");
-		  arr2 = name.split(" ");
-		  for (i = 0; i < arr2.length; i++) {
-		    while (arr1.indexOf(arr2[i]) > -1) {
-		      arr1.splice(arr1.indexOf(arr2[i]), 1);     
-		    }
-		  }
-		  element.className = arr1.join(" ");
-		}
-
-		// Add active class to the current button (highlight it)
-		var btnContainer = document.getElementById("filter");
-		var btns = btnContainer.getElementsByClassName("filterbutton");
-		for (var i = 0; i < btns.length; i++) {
-		  btns[i].addEventListener("click", function(){
-		    var current = document.getElementsByClassName("filterbutton active");
-		    current[0].className = current[0].className.replace(" active", "");
-		    this.className += " active";
-		  });
-		}
 	</script>
 
 	<div class="nanobar loading-bar" id="loadingbar" style="position: fixed;">
