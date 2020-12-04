@@ -193,7 +193,7 @@ button.about-button{
 
 .work-cells img:hover {
 	outline: 3px solid #526CB8;
-	outline-offset: 4px;
+	outline-offset: 0px;
 	box-shadow: 11px 11px 0 #FB9B8E;
 }
 
