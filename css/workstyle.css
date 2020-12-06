@@ -82,6 +82,13 @@ h2 {
     color: #020202;
 }
 
+h3 {
+    font-family: 'Apercu-Medium';
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: #020202;
+}
+
 a {
     text-decoration: none;
 }
