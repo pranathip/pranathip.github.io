@@ -77,16 +77,16 @@
 
 h2 {
     font-family: 'Apercu-Medium';
-    font-size: 1.875rem;
+    font-size: 1.7rem;
     line-height: 1.2;
-    color: #020202;
+    color: #526CB8;
 }
 
 h3 {
     font-family: 'Apercu-Medium';
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 1.2;
-    color: #020202;
+    color: #526CB8;
 }
 
 a {
@@ -95,6 +95,7 @@ a {
 
 .small {
     font-size: 1rem;
+    font-family: 'Apercu-medium-italic';
     line-height: 1.2;
     color: #7a7a7a;
     width: 100%;
