@@ -225,11 +225,6 @@ label {
     /*margin-right: 20%;*/
 }
 
-.masthead1 img {
-    width: 6%;
-    animation: spin 6s linear infinite;
-}
-
 .changeFontColor {
     color: #fff;
 }
