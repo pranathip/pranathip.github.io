@@ -1,0 +1,934 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    transition: all 200ms;
+
+    scroll-behavior: smooth;
+
+    transition: all 200ms;
+    will-change: background;
+}
+
+.clear {
+    clear: both;
+}
+
+#footer, #footer2, #content, .nav, #masthead {
+    padding-right: 6%;
+    padding-left: 6%;
+}
+
+.nav {
+    padding-top: 4%;
+}
+
+#content, .masthead1, .nav {
+    animation: fadeInLanding 2s ease-in-out 0s;
+}
+
+/*wish*/
+.wishTY {
+    text-align: center;
+    align-items: center;
+}
+
+.wishTY img{
+    width: 20%;
+}
+
+/* progress bar */
+/* Style the header: fixed position (always stay at the top) */
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+    width: 100%;
+    height: 4px;
+    background: transparent;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+    height: 4px;
+    background: #000;
+    width: 0%;
+}
+
+/*** Btn style ***/
+.button {
+    background-color: white;
+    border: 1px solid #000;
+    color: #000;
+    padding: 15px 32px;
+    text-align: center;
+
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 200;
+
+    margin-right: 20%;
+    margin-left: 20%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #000;
+    border: none;
+    color: white;
+}
+
+.button a:hover{
+    color: white;
+}
+
+/********** FONTS **********/
+
+/********** FONTS **********/
+
+html {
+    font-family: 'Apercu';
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #404040;
+
+    scroll-behavior: smooth;
+}
+
+b {
+    font-weight: 1000;
+    background-color: #f3ec78;
+    background: linear-gradient(45deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 97%, rgba(252,176,69,1) 100%);
+    /*background-image: linear-gradient(45deg, #f3ec78, #af4261);*/
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+a {
+    font-family: 'Apercu-light';
+    text-decoration: none;
+    color: #404040;
+}
+
+i {
+    font-family: 'Apercu';
+    font-style: italic;
+    font-weight: 400;
+    color: #FB9B8E;
+}
+
+/*i:hover {
+    color: #4D7DFF;
+}*/
+
+p {
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: 300;
+}
+
+.caption {
+    text-align: center;
+
+    opacity: 40%;
+}
+
+/********** NAVBAR **********/
+
+.nav {
+    margin-bottom: 6%;
+}
+
+.home {
+    font-family: 'Apercu';
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navTitle {
+    font-family: 'Apercu Light';
+    font-weight: 50;
+    font-size: 1rem;
+}
+
+.navTitleLanding {
+    font-family: 'Apercu';
+    font-weight: 1000;
+    font-size: 1rem;
+    color: black;
+}
+
+.navTitle:hover {
+    font-family: 'Apercu';
+    font-weight: 1000;
+    font-size: 1rem;
+    color: black;
+}
+
+.sideBlanknav {
+    width: 1.25rem;
+}
+
+label {
+    margin: 0 2.5rem 0 0;
+    font-size: 1.625rem;
+    line-height: 4.375rem;
+    display: none;
+    width: 1.625rem;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+
+/********** INDEX **********/
+#masthead {
+    padding-top: 2%;
+    padding-bottom: 4%;
+    padding-left: 0%;
+}
+
+.masthead1 {
+    font-family: 'Apercu';
+    font-weight: 300;
+    font-size: 3.2rem;
+    line-height: 1.2;
+
+    /*margin-right: 20%;*/
+}
+
+.masthead1 img {
+    width: 6%;
+    animation: spin 6s linear infinite;
+}
+
+.changeFontColor {
+    color: #fff;
+}
+
+.back {
+    color: #020202;
+}
+
+.scrollDown {
+    padding-top: 4%;
+}
+
+.words {
+    font-size: 0.875rem;
+    padding-left: 2%;
+    padding-top: 4%;
+}
+
+.tilt img{
+    transform: rotate(-4deg);
+}
+
+/***** This is the grid (for index)******/
+
+#column {
+    padding-top: 4%;
+    padding-bottom: 6%;
+
+    background: #020202;
+}
+
+#workIn {
+    margin-top: 4%;
+    margin-bottom: 4%;
+
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+#work {
+    border-top: solid 0.0625rem #383838;
+}
+
+.imgRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.detail {
+    padding-top: 4%;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    font-family: 'Apercu';
+    font-style: 'bold'
+    font-size: 1.875rem;
+    line-height: 1.2;
+    color: #020202;
+}
+
+.small {
+    font-size: 1rem;
+    font-style: 'light';
+    line-height: 1.2;
+    color: #ababab;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.sideBlankBottom {
+    height: 1.875rem;
+}
+
+/* GRID */
+
+.masthead3 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 3.25rem;
+}
+
+#columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blank {
+    width: 100%;
+}
+
+#showcaseWork {
+    margin-top: 100px;
+}
+
+.item img {
+    width: 4000px;
+    max-width: 100%;
+}
+
+.item {
+    margin-bottom: 30%;
+}
+
+/********** ABOUTME CONTENT **********/
+
+#aboutMe1 {
+    margin-top: 10%;
+}
+
+#aboutMe1 img {
+    transform: rotate(-4deg);
+}
+
+#aboutMe2 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.aboutHeader {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 4%;
+}
+
+.aboutHeader img {
+    width: 6%;
+}
+
+.sectionSubTextHalf1 {
+    width: 54%;
+}
+
+.sectionSubTextHalf2 {
+    width: 80%;
+}
+
+.sideBlankAbout {
+    width: 18%;
+}
+
+/********** CASE STUDY **********/
+
+/***** Intro section *****/
+
+.tag {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 0.875rem;
+}
+
+.imageHeader {
+    display: flex;
+    justify-content: center;
+}
+
+#imageHeader {
+    margin-bottom: 6%;
+}
+
+.imageHeader img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.titleText {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 3.25rem;
+
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+#introDetails {
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 10%;
+}
+
+.introSubText {
+    margin-bottom: 6%;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    width: 90%;
+}
+
+.introBlank {
+    width: 20%;
+}
+
+.introDesc {
+    width: 30%;
+}
+
+.descCatTitle {
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.descCat {
+    margin-bottom: 6%;
+    font-size: 1rem;
+}
+
+/***** Case study content *****/
+
+.caption {
+    margin-top: 1%;
+}
+
+#pageSection {
+    margin-bottom: 14%;
+}
+
+.pageSectionTitle {
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 200;
+
+    margin-bottom: 1%;
+}
+
+.sectionText {
+    font-size: 1.75rem;
+    line-height: 1.5;
+    width: 60%;
+}
+
+.sectionTextCenter {
+    font-size: 1.75rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.sectionTextAll {
+    font-size: 1.75rem;
+    line-height: 1.5;
+
+    margin-top: 20%;
+    margin-bottom: 6%;
+}
+
+.sectionTextAllFull {
+    font-size: 1.75rem;
+    line-height: 1.5;
+
+    margin-bottom: 3%;
+}
+
+.sectionSubText {
+    width: 60%;
+}
+
+.sectionSubTextLong {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sectionSubTextHalf {
+    width: 60%;
+}
+
+.sectionSubTextHalfNon {
+    width: 50%;
+    margin-left: 50%;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.item1 img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.divide {
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionText2 {
+    font-size: 1.75rem;
+    width: 60%;
+    line-height: 1.5;
+
+    margin-right: 10%;
+}
+
+.mobile video {
+    width: 20%;
+}
+
+.mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.center {
+    margin-left: 25%;
+    margin-right: 25%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionText img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.threeCol {
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 6%;
+}
+
+.sideBlank {
+    width: 140px;
+}
+
+.description {
+    width: 30%;
+    margin-top: 10%;
+}
+
+.video {
+    width: 70%;
+}
+
+/********** BOTTOM NAV **********/
+
+#bottomNav {
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-bottom: 10%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#bottomNav .right {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    
+    float: right;
+}
+
+#bottomNav .left {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.right:hover, .left:hover {
+    border-bottom: 0.0625rem solid #000;
+}
+
+
+/********** FOOTER **********/
+
+#footer {
+    padding-top: 2%;
+    padding-bottom: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #000000;
+}
+
+#footer2 {
+    padding-top: 0%;
+    padding-bottom: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #020202;
+}
+
+.footerTitle {
+    font-family: 'Apercu';
+    font-weight: 300;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.footerTitle2 {
+    font-family: 'Apercu';
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.footerTitle3 {
+    font-family: 'Apercu-Bold';
+    font-weight: 300;
+    font-size: 0.75rem;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.footerTitle4 {
+    font-family: 'Apercu-Bold';
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+
+#media, .copyright, .copyright2 {
+    padding-top: 4%;
+}
+
+.copyright {
+    font-family: 'Apercu';
+    font-weight: 300;
+    font-size: 1rem;
+    padding-bottom: 3%;
+    color: #fff;
+}
+
+.copyright2 {
+    font-family: 'Apercu';
+    font-weight: 300;
+    font-size: 1rem;
+    padding-bottom: 3%;
+    text-transform: uppercase;
+    color: #AE3A6C;
+}
+
+#media {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    font-size: 0.875rem;
+    color: #fff;
+}
+
+.icon2 {
+    font-size: 0.875rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.icon2 a:hover {
+    border-bottom: 0.03125rem solid #020202;
+}
+
+.sideBlanknavbottom {
+    width: 4.375rem;
+}
+
+.whiteFont {
+    color: #fff;
+}
+
+a .whiteFont:hover {
+    font-size: 0.875rem;
+    border-bottom: 0.03125rem solid #fff;
+}
+
+a .smallhover:hover {
+    color: #AE3A6C;
+}
+
+/********** ANIMATIONS **********/
+
+@keyframes upDown {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(20px);
+    }
+} 
+
+/* Fade into page once landed */
+@keyframes fadeInLanding {
+    from {
+        opacity: 0%;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
+
+/********** RESPONSIVE **********/
+
+/* Use a media query to add a breakpoint at 800px: */
+
+@media screen and (max-width: 800px) {
+    /* nav */
+    label {
+        display: block;
+        cursor: pointer;
+
+        float: right;
+        margin-bottom: 10%;
+    }
+
+    .menu {
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        margin: 5px;
+
+        font-weight: 300;
+    }
+
+    .navTitleLand:hover {
+        font-weight: 300;
+    }
+
+    .nav {
+        padding-top: 0%;
+    }
+
+    #toggle:checked + .menu {
+        display: flex;
+    }
+
+    /* index.html */
+    
+    .masthead1 {
+        font-size: 30px;
+        margin-right: 0%;
+    }
+
+    #column, #columns {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        line-height: 1.6;
+    }
+
+    #showcaseWork {
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 0px;
+    }
+
+    .item {
+        margin-bottom: 30%;
+    }
+
+    .masthead3 {
+        margin-bottom: 20%;
+    }
+
+    /* play */
+
+    #mastheadPlay .masthead3 {
+        padding-top: 12%;
+        font-size: 2rem;
+    }
+
+    /* about.html */
+
+    .aboutHeader {
+        font-size: 30px;
+    }
+
+    .imageHeader img {
+        display: none;
+    }
+    
+    /* case studies */
+    .intro, #introDetails, #pageSection, .divide, .center {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tag {
+        font-size: 10px;
+    }
+
+    .sideBlank {
+        display: none;
+    }
+
+    .center {
+        margin: 0%;
+    }
+
+    .item1 {
+        margin-bottom: 20%;
+    }
+
+    .sectionSubTextLong {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sectionSubTextHalfNon, .sectionText, .sectionSubText, .sectionSubTextLong, .sectionSubTextHalf, .sectionSubTextHalf1, .sectionSubTextHalf2, .sectionSubTextHalfNon, .sectionText2, .detail {
+        width: 100%;
+        margin: 0%;
+        max-width: 100%;
+    }
+
+    .sectionSubTextHalf1, .sectionSubTextHalf2 {
+        margin-bottom: 14%;
+    }
+
+    #imageHeader, .imageHeader, #introDetails {
+        margin-bottom: 6%;
+    }
+
+    .mobile video {
+        width: 100%;
+        margin-bottom: 20%;
+    }
+
+    .titleText {
+        font-size: 30px;
+    }
+
+    .sectionText, .sectionText2, .introSubText {
+        font-size: 18px;
+    }
+
+    .sectionText {
+        margin-bottom: 20%;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row img {
+        padding: 10%;
+    }
+
+    /* footer */
+    #footer {
+        max-width: 100%;
+
+        display: flex;
+        flex-direction: row;
+
+        margin-top: 14%;
+    }
+
+    #media {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon {
+        margin-bottom: 4%;
+    }
+
+    .connect {
+        font-size: 14px;
+        padding-bottom: 5%;
+    }
+
+  }

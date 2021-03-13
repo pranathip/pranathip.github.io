@@ -1,34 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Pranathi Peri - About</title>
-	<!-- Properties -->
-	<meta property="og:title" content="Pranathi Peri - About" />
-	<meta property="og:description" content="" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:site_name" content="Pranathi Peri - About" />
-	<meta name="image" property="og:image" content="https://pranathiperi.me/img/front.png" />
-	<meta property="og:url" content="https://pranathiperi.me/" />
-	<meta property="og:image:width" content="50" />
-	<meta property="og:image:height" content="50" />
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Pranathi Peri</title>
+        <link rel="shortcut icon" type="image/png" href="img/shoe.png"/>
+        
+        <!-- Properties -->
+	    <meta property="og:locale" content="en_US" />
+	    <meta property="og:url" content="https://pranathiperi.me/" />
+	    <meta property="og:image:width" content="50" />
+	    <meta property="og:image:height" content="50" />
 
-	<!-- script and stylesheets -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="fonts/stylesheet.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-	<script src="js/nanobar.min.js"></script>
+        <!--Responsive-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- favicon -->
-	<link rel="icon" type="image/png" href="img/favicon.png"/>
+        <!--Font-->
 
-	<!-- Analytics -->
+        <!--Link to stylesheets-->
+        <link rel="stylesheet" href="styles/stylesIndex.css" type="text/css">
+        <link rel="stylesheet" href="fonts/stylesheet.css">
+        
+        
+        <!-- Analytics -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165298698-1"></script>
 	<script>
@@ -38,73 +33,84 @@
 
 	  gtag('config', 'UA-165298698-1');
 	</script>
+    </head>
 
-</head>
-<body>
+    <body>
+        <!--NAV-->
+        <div class="nav" data-color="#fff">
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle"/>
+            <div class="menu">
+                <div class="home"><a href="index.html"><img src="img/logo.png" width=130></a></div>
+                <div class="side">
+                    <a href="index.html" class="navTitle">Work</a>
+                    <div class="sideBlanknav"></div>
+                    <a href="play.html" class="navTitle">Play</a>
+                    <div class="sideBlanknav"></div>
+                    <a href="about.html" class="navTitleLanding">About</a>
+                    <div class="sideBlanknav"></div>
+                    <a href="assets/resume.pdf" class="navTitle" style="color:#AE3A6C">Resume</a>
+                </div>
+            </div>
 
-	<nav id="nav" class="navbar navbar-expand-lg navbar-light about-navbar" style="display:none">
-	  <a class="navbar-brand" href="index.html"><img src="img/brand.png" width="145"/></a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="about-navbar fa fa-bars"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-	    <div class="navbar-nav ml-auto">
-	      <li><a class="nav-item nav-link" href="work.html">Work</a></li>
-	      <li><a class="nav-item nav-link" href="play.html">Play</a></li>
-	      <li><a class="nav-item nav-link active" href="about.html">About</a></li>
-	    </div>
-	  </div>
-	</nav>
+            <div class="clear"></div>
+        </div>
 
-	<script>
-		$(document).ready(function() {
-  		$("#nav").slideDown('slow');
-		});
-	</script>
+        <div id="contentIndex">
+            <!--<div id="masthead" data-color="#020202">
+                <div class="masthead1">
+                    Hi, I'm <b>Pranathi</b>! I'm a <b>Product Designer</b> and <b>Software Engineer</b> based in Berkeley, CA.&nbsp;<img src="img/shoe.png">
+                </div>
+            </div>
 
-<div class="about-wrapper">
-	<div class="container">
-		<div class="row">
-			<div class="col-7" style="padding-right: 30px">
-      			<h1>About</h1>
-      			<br>
-      			<h2>Hey there! My name is Pranathi and I'm a junior at UC Berkeley studying <a id="blue" href="https://eecs.berkeley.edu/">Electrical Engineering & Computer Science</a> with a <a id="blue" href="https://bcdi.berkeley.edu/">certificate in design</a>.</h2>
-      			<br>
-      			<h2>For as long as I can remember, I've loved art and design - UX/product design has 
-      			allowed me to combine my skills in tech with those in illustration/design to produce
-      			beautiful end-to-end interfaces.</h2>
-      			<br>
-      			<h2>In my free time, I love running, playing with my lab-shepherd mix named Nora, and 
-      			buying cool sneakers.</h2>
-      			<br>
-      			<h2>Want to get in touch? <a id="pink" href="mailto:pranathiperi@berkeley.edu?Subject=Hello!">Let's chat!</a></h2>
-      			<br>
-      			<button onclick="window.open('assets/Pranathi_Peri_Resume.pdf');" class="about-button">
-      				<i class="fa fa-cloud-download"></i>
-      				R E S U M E
-      			</button>
-			</div>
-			<div class="col">
-      			<img src="img/about.gif" width="98%" style="border-radius:12px"/>
-			</div>
-		</div>
-	</div>
-</div>
+            <div id="footer2" data-color="AE3A6C">    
+                <div class="copyright2"><a href="#column" class="smallhover">TAKE A PEEK AT MY WORK ↓</a></div>
+            </div>-->
 
-<footer>
-	<script>
-		var options = {
-		classname: 'loading-bar',
-	    id: 'loadingbar'
-		};
-		var nanobar = new Nanobar( options );
-		nanobar.go( 30 );
-		nanobar.go( 76 );
-		nanobar.go(100);
-	</script>
-	<div class="nanobar loading-bar" id="loadingbar" style="position: fixed;">
-    	<div class="bar"></div>
-	</div>
-</footer>
+            <!--WORK-->
+                    <!--WORK-->
+        <div id="content">
+            <div class=" image-cropper">
+                <img src="img/about2.JPG" alt="avatar" class="profile-pic">
+            </div>
+            <div class="about">
+                <h1>Hey there, I'm <b>Pranathi!</b></h1>
+                <div class="aboutInfo" style="font-family: 'Apercu Light'">
+                    I'm a junior at UC Berkeley studying <a href="https://eecs.berkeley.edu/">Electrical Engineering & Computer Science</a> with a <a href="https://bcdi.berkeley.edu/">certificate in design.</a>
+                    <br><br>
+                    For as long as I can remember, I've loved art and design - UX/product design has allowed me to combine my skills in tech with those in illustration/design to produce beautiful end-to-end interfaces. I take a specific liking for mobile application design, and my background in tech has given me the unique ability to not only mock up designs for aesthetic and functional applications, but to also create functional prototypes and implementatitons. At Cal, I am part of the executive committee of several student groups that helped build my skills as a designer, developer, and mentor.
+                    <br><br>
+                    In between school years, I interned at Blue Cheetah Analog Design, a startup based out of SF, and most recently, I was a University Engineering Intern at Facebook. I will be returning to Facebook as a SWE Intern in New York for Summer 2021.
+                    <br><br>
+                    When I'm not drawing, designing, or coding, I'm playing with my lab-shepherd mix Nora, or shopping for cool sneakers. :)
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <!--FOOTER-->
+        <div id="footer">
+            <div id="media">
+                <div class="icon">
+                    <div class="footerTitle">Social Media</div>
+                    <a href="https://linkedin.com/in/pranathip" target="_blank"><div class="smallhover">LinkedIn</div></a>
+                    <a href="https://www.instagram.com/mindjunkk/?hl=en" target="_blank"><div class="smallhover">Instagram</div></a>
+                </div>
+                <div class="sideBlanknavbottom"></div>
+                <div class="icon">
+                    <div class="footerTitle">Email</div>
+                    <a href="mailto:pranathiperi@berkeley.edu" target="_blank"><div class="smallhover">Let's chat!</div></a>
+                </div>
+                <div class="sideBlanknavbottom"></div>
+                <div class="icon">
+                    <div class="footerTitle">Resume</div>
+                    <a href="assets/resume.pdf" target="_blank"><div class="smallhover">Click to download</div></a>
+                </div>
+            </div>
+        </div>
 
-</body>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src="scripts/scripts.js"></script>
+
+    </body>
+</html>

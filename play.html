@@ -1,35 +1,28 @@
- <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Pranathi Peri - Play</title>
-	<!-- Properties -->
-	<meta property="og:title" content="Pranathi Peri - Play" />
-	<meta property="og:description" content="" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:site_name" content="Pranathi Peri - Play" />
-	<meta name="image" property="og:image" content="https://pranathiperi.me/img/front.png" />
-	<meta property="og:url" content="https://pranathiperi.me/" />
-	<meta property="og:image:width" content="50" />
-	<meta property="og:image:height" content="50" />
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Pranathi Peri</title>
+        <link rel="shortcut icon" type="image/png" href="img/shoe.png"/>
+        
+        <!-- Properties -->
+	    <meta property="og:locale" content="en_US" />
+	    <meta property="og:url" content="https://pranathiperi.me/" />
+	    <meta property="og:image:width" content="50" />
+	    <meta property="og:image:height" content="50" />
 
-	<!-- script and stylesheets -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="fonts/stylesheet.css">
-	<link rel="stylesheet" href="css/workstyle.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-	<script src="js/nanobar.min.js"></script>
+        <!--Responsive-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- favicon -->
-	<link rel="icon" type="image/png" href="img/favicon.png"/>
+        <!--Font-->
 
-	<!-- Analytics -->
+        <!--Link to stylesheets-->
+        <link rel="stylesheet" href="styles/styles.css" type="text/css">
+        <link rel="stylesheet" href="fonts/stylesheet.css">
+        
+        <!-- Analytics -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165298698-1"></script>
 	<script>
@@ -39,132 +32,148 @@
 
 	  gtag('config', 'UA-165298698-1');
 	</script>
+    </head>
 
-</head>
-<body>
+    <body>
+        <!--NAV-->
+        <div class="nav" data-color="#fff">
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle"/>
+            <div class="menu">
+                <div class="home"><a href="index.html"><img src="img/logo.png" width=130></a></div>
+                <div class="side">
+                    <a href="index.html" class="navTitle">Work</a>
+                    <div class="sideBlanknav"></div>
+                    <a href="graphic.html" class="navTitleLanding">Play</a>
+                    <div class="sideBlanknav"></div>
+                    <a href="about.html" class="navTitle">About</a>
+                    <div class="sideBlanknav"></div>
+                    <a href="assets/resume.pdf" class="navTitle" style="color:#AE3A6C">Resume</a>
+                </div>
+            </div>
 
-	<nav id="nav" class="navbar navbar-expand-lg navbar-light about-navbar" style="display:none">
-	  <a class="navbar-brand" href="index.html"><img src="img/brand.png" width="145"/></a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="about-navbar fa fa-bars"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-	    <div class="navbar-nav ml-auto">
-	      <li><a class="nav-item nav-link" href="work.html">Work</a></li>
-	      <li><a class="nav-item nav-link active" href="play.html">Play</a></li>
-	      <li><a class="nav-item nav-link" href="about.html">About</a></li>
-	    </div>
-	  </div>
-	</nav>
+            <div class="clear"></div>
+        </div>
 
-	<div class="work-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-	      			<h1>Play</h1>
-	      			<h2>Miscellaneous graphic design, digital illustration, and content creation :)</h2>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="work-cells">
+        <div id="content">
+            <!--<div id="masthead" data-color="#020202">
+                <div class="masthead1">
+                    <b>Design Projects</b>...but just for <b>fun</b>!
+                </div>
+            </div>-->  
+            SOME STUFF I DO FOR FUN :) ↓
             <!--WORK-->
             <div id="columns">
                 <div id="showcaseWork">
                     <div class="item">
-                            <div class="image-box"><img src="img/play/cards.gif"></div>
+                        <a>
+                            <div class="image-box"><img src="img/play/bhav.JPG"></div>
                             <div class="detail">
                                 <div class="detailTitle">
-                                    <h3>Sneaker Playing Cards</h3>
-                                    <div class="small">Fun fact: as the cards increase in value, so do the rarity/value of the sneakers they're associated with :)</div>
+                                    <h2>Bhavaani's Handlooms</h2>
+                                    <div class="small">Photography, design, marketing, and branding materials for Indian Ethnicwear boutique</div>
                                 </div>
                             </div>
+                        </a>
                     </div>
                     
                     <div class="item">
-                            <div class="image-box"><img src="img/play/wave.jpeg"></div>
+                        <a>
+                            <div class="image-box"><img src="img/play/decks.gif"></div>
                             <div class="detail">
                                 <div class="detailTitle">
-                                    <h3>Tattoo Design</h3>
-                                    <div class="small">Fine-line tattoo design and illustration</div>
+                                    <h2>Slide Deck Design</h2>
+                                    <div class="small">Contract design/research projects with select fortune 500 companies.</div>
                                 </div>
                             </div>
-                    </div>
-                </div>
-
-                <div class="blank"></div>
-
-				<div id="showcaseWork">
-                    <div class="item">
-                            <div class="image-box"><img src="img/play/spiderman.JPG"></div>
-                            <div class="detail">
-                                <div class="detailTitle">
-                                    <h3>Miles Morales Illustration</h3>
-                                    <div class="small">Comic-style art/animation inspired by frames from my favorite movie of all time, Into the Spiderverse</div>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="item">
-                            <div class="image-box"><img style="border-radius: 20px; border:3px solid #d4d2cd" src="img/play/bmonboarding.gif"></div>
-                            <div class="detail">
-                                <div class="detailTitle">
-                                    <h3>Berkeley Mobile</h3>
-                                    <div class="small">Cute bear on-boarding illustrations for Berkeley Mobile's anticipated 'Study Pact' feature</div>
-                                </div>
-                            </div>
+                        </a>
                     </div>
                 </div>
 
                 <div class="blank"></div>
 
                 <div id="showcaseWork">
-                	<div class="item">
-                            <div class="image-box"><img src="img/play/decks.gif"></div>
-                            <div class="detail">
-                                <div class="detailTitle">
-                                    <h3>Slide Deck Design</h3>
-                                    <div class="small">Contract design/research projects with select fortune 500 companies.</div>
-                                </div>
-                            </div>
-                    </div>
                     <div class="item">
-                            <div class="image-box"><img src="img/play/bhav.JPG"></div>
+                        <a>
+                            <div class="image-box"><img src="img/play/cards.gif"></div>
                             <div class="detail">
                                 <div class="detailTitle">
-                                    <h3>Bhavaani's Handlooms</h3>
-                                    <div class="small">Photography, design, marketing, and branding materials for Indian Ethnicwear boutique</div>
+                                    <h2>Sneaker Playing Cards</h2>
+                                    <div class="small">Fun fact: as the cards increase in value, so do the rarity/value of the sneakers they're associated with :)</div>
                                 </div>
                             </div>
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a>
+                            <div class="image-box"><img src="img/play/wave.jpeg"></div>
+
+                            <div class="detail">
+                                <div class="detailTitle">
+                                    <h2>Tattoo Design</h2>
+                                    <div class="small">Fine-line tattoo design and illustration</div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
+
+                <div class="blank"></div>
                 
+                <div id="showcaseWork">
+                    <div class="item">
+                        <a>
+                            <div class="image-box"><img src="img/play/spiderman.JPG"></div>
+
+                            <div class="detail">
+                                <div class="detailTitle">
+                                    <h2>Digital Artwork</h2>
+                                    <div class="small">Random doodles I make when...I should be studying</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a>
+                            <div class="image-box"><img src="img/play/dab.png"></div>
+                            
+                            <div class="detail">
+                                <div class="detailTitle">
+                                    <h2>Landing Page Design</h2>
+                                    <div class="small">Web design, icon design and branding</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--FOOTER-->
+        <div id="footer">
+            <div id="media">
+                <div class="icon">
+                    <div class="footerTitle">Social Media</div>
+                    <a href="https://linkedin.com/in/pranathip" target="_blank"><div class="smallhover">LinkedIn</div></a>
+                    <a href="https://www.instagram.com/mindjunkk/?hl=en" target="_blank"><div class="smallhover">Instagram</div></a>
+                </div>
+                <div class="sideBlanknavbottom"></div>
+                <div class="icon">
+                    <div class="footerTitle">Email</div>
+                    <a href="mailto:pranathiperi@berkeley.edu" target="_blank"><div class="smallhover">Let's chat!</div></a>
+                </div>
+                <div class="sideBlanknavbottom"></div>
+                <div class="icon">
+                    <div class="footerTitle">Resume</div>
+                    <a href="assets/resume.pdf" target="_blank"><div class="smallhover">Click to download</div></a>
+                </div>
+            </div>
         </div>
 
-    </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src="scripts/scripts.js"></script>
 
-
-	<script>
-		$(document).ready(function() {
-  		$("#nav").slideDown('slow');
-		});
-	</script>
-
-<footer>
-	<script>
-		var options = {
-		classname: 'loading-bar',
-	    id: 'loadingbar'
-		};
-		var nanobar = new Nanobar( options );
-		nanobar.go( 30 );
-		nanobar.go( 76 );
-		nanobar.go(100);
-	</script>
-	<div class="nanobar loading-bar" id="loadingbar" style="position: fixed;">
-    	<div class="bar"></div>
-	</div>
-</footer>
-
-</body>
+    </body>
 </html>

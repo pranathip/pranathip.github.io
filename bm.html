@@ -1,34 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Berkeley Mobile</title>
-	<!-- Properties -->
-	<meta property="og:title" content="Berkeley Mobile" />
-	<meta property="og:description" content="" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:site_name" content="Berkeley Mobile" />
-	<meta name="image" property="og:image" content="https://pranathiperi.me/img/" />
-	<meta property="og:url" content="https://pranathiperi.me/" />
-	<meta property="og:image:width" content="50" />
-	<meta property="og:image:height" content="50" />
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Deadstock</title>
+        <link rel="shortcut icon" type="image/png" href="img/shoe.png"/>
+        
+        <!-- Properties -->
+	    <meta property="og:locale" content="en_US" />
+	    <meta property="og:url" content="https://pranathiperi.me/" />
+	    <meta property="og:image:width" content="50" />
+	    <meta property="og:image:height" content="50" />
 
-	<!-- script and stylesheets -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="fonts/stylesheet.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-	<script src="js/nanobar.min.js"></script>
+        <!--Responsive-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- favicon -->
-	<link rel="icon" type="image/png" href="img/favicon.png"/>
+        <!--Font-->
 
-	<!-- Analytics -->
+        <!--Link to stylesheets-->
+        <link rel="stylesheet" href="styles/stylesIndex.css" type="text/css">
+        <link rel="stylesheet" href="fonts/stylesheet.css">
+        
+        <!-- Analytics -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165298698-1"></script>
 	<script>
@@ -38,129 +32,199 @@
 
 	  gtag('config', 'UA-165298698-1');
 	</script>
+    </head>
 
-</head>
-<body id="index">
+    <body>
+        <!--NAV-->
+        <div class="nav" data-color="#fff">
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle"/>
+            <div class="menu">
+                <div class="home"><a href="index.html"><img src="img/logo.png" width=130></a></div>
+                <div class="side">
+                    <a href="index.html" class="navTitleLanding">Work</a>
+                    <div class="sideBlanknav"></div>
+                    <a href="graphic.html" class="navTitle">Play</a>
+                    <div class="sideBlanknav"></div>
+                    <a href="about.html" class="navTitle">About</a>
+                    <div class="sideBlanknav"></div>
+                    <a href="assets/resume.pdf" class="navTitle" style="color:#AE3A6C">Resume</a>
+                </div>
+            </div>
 
-	<nav id="nav" class="navbar navbar-expand-lg navbar-light details-navbar" style="display:none">
-	  <a class="navbar-brand" href="index.html"><img src="img/brand_white.png" width="145"/></a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="details-navbar fa fa-bars"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-	    <div class="navbar-nav ml-auto">
-	      <li><a class="nav-item nav-link" href="work.html">Work</a></li>
-	      <li><a class="nav-item nav-link" href="play.html">Play</a></li>
-	      <li><a class="nav-item nav-link active" href="about.html">About</a></li>
-	    </div>
-	  </div>
-	</nav>
+            <div class="clear"></div>
+        </div>
 
-	<script>
-		$(document).ready(function() {
-  		$("#nav").slideDown('slow');
-		});
-	</script>
+        <div id="contentIndex">
+            <div id="masthead" data-color="#020202">
+                <div class="masthead1">
+                    <b>Berkeley Mobile</b>
+                </div>
+                <div class="masthead1">
+                    <div class="smallBlack">Berkeley Mobile is UC Berkeley's flagship campus mobile application - features include campus navigation, library occupancies, campus event scheduled (integrated wihth Google Calendar), resources, and most recently, StudyPact (an in-app study-buddy matching service).</div>
+                </div>
+            </div>
+            <div id="footer2">
+                <div id="media">
+                    <div class="icon">
+                        <div class="footerTitle3">Design/UX Research Tools</div>
+                        <a><div class="smallhover">Procreate</div></a>
+                        <a><div class="smallhover">Figma</div></a>
+                        <a><div class="smallhover">InVision Design Studio</div></a>
+                        <a><div class="smallhover">Adobe Illustrator</div></a>
+                        <a><div class="smallhover">Photoshop</div></a>
+                        <a><div class="smallhover">FlowMapp</div></a>
+                        <a><div class="smallhover">UserBit</div></a>
+                    </div>
+                    <div class="sideBlanknavbottom"></div>
+                    <div class="icon">
+                        <div class="footerTitle3">Role</div>
+                        <a><div class="smallhover">Product Design Lead (Present)</div></a>
+                        <a><div class="smallhover">Product Designer (Sept 2020 - Dec 2020)</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-	<div class="details-wrapper">
-		<div class="container">
-			<div class="row">
-				<div class="col-9">
-	      			<h2>Product Designer</h2>
-	      			<h1>Berkeley Mobile</h1>
-	      			<h3>Designing and prototyping new features for Berkeley's flagship campus mobile application.</h3>
-	      			<br>
-	      			<br>
-	      			<h3>COMING SOON</h3>
-	      			<!--<button class="overview-button">
-      					<i class="fa fa-play-circle"></i>
-      					Interactive Demo
-      				</button>-->
-				</div>
-				<div class="col">
-	      			<img src="img/bm/bm.gif" width="200px"/>
-				</div>
-			</div>
-		</div>
-	</div>
+        <div class="imageHeader"><img src="img/bmbanner.png"></div>
+        
+        <div id="contentIndex">
+            <div id="footer2" style="padding-top:40px">
+                <div class="masthead1">
+                    <div class="footerTitle3">UNDER CONSTRUCTION! COME BACK SOON :)</div>
+                    <!--<div class="smallBlack">During my 10 weeks at Facebook, I went through an intensive iOS mobile development and prototyping program and soon after was tasked with the challenge of creating an industry-level application at the culminatioin of my internship. Drawing from my interest in the sneaker industry, I decided to create DeadStock - a mobile application that allows you to track the rises and falls of sneaker prices with an added sneaker news feature to allow you to stay up to date with the latest drops and releases.</div>-->
+                </div>
+            </div>
+        </div>
+            <!--<div id="footer2">
+                <div class="masthead1">
+                    <div class="footerTitle3">Usability & Adressable Market</div>
+                    <div class="smallBlack">Inspired in design by Apple's 'stocks' application, DeadStock is a simply designed app that allows users to view sneaker prices at their fingertips. As someone who constantly checks up on the status of sneakers that I personally love and am looking to invest in, I always find myself checking applications like GOAT and StockX pretty regularly. What is unique about DeadStock that sets it apart from these applications, is it's simplicity and primary purpose to provide iniformatoin for user consumption, rather than to engage users in making purchases, sell or bid on posted sneakers. That being said, the purpose of this project was more so focused on the design and implementaton of the applcation, rather than the market appeal & usability, which is why little-to-no time was spent on user research/testnig during the short, fast-paced timeframe.</div>
+                </div>
+            </div>
+            <div id="footer2">
+                <div class="masthead1">
+                    <div class="footerTitle3">Part 1</div>
+                    <div class="footerTitle4" style="padding-top: 10px">Designing & Prototyping</div>
+                </div>
+            </div>
+            <div id="footer2">
+                <div class="masthead1">
+                    <div class="footerTitle3">Screen Archetypes</div>
+                    <div class="smallBlack">The design component of this project started off by listing all of the capabilities I wanted my applicatioin to have. Soon after, I was able to map these capabilities to specific screen archetypes, marking which buttons lead to which transitions, etc.</div>
+                </div>
+                <div class="imageHeader"><img src="img/ds_screenarchetypes.png"></div>
+            </div>
+            <div id="footer2">
+                <div class="masthead1">
+                    <div class="footerTitle3">User Flows and Low Fidelity Wireframes</div>
+                    <div class="smallBlack">I had a pretty good idea of what I wanted each screen of this application to look like, so I took to procreate to roughly sketch a user-flow and layout of where all the main elements would go. The main concepts to take away from this wireframe are the layout of the sneakers as "stock" modules, the navigatiion between elemets of the tab bar, as well as the branding/logos/icons.</div>
+                </div>
+            </div>
+            <div id="footer2" style="align-items:center">
+                <div class="imageHeader" style="height:100%"><img src="img/dsflow.png"></div>
+                <div class="imageHeader"><img src="img/ds_lofi.jpeg"></div>
+            </div>
+            <div id="footer2">
+                <div class="masthead1">
+                    <div class="footerTitle3">High Fidelity Wireframe</div>
+                    <div class="smallBlack">After soldifying my hand-drawn wireframe and recieving feedback from my Facebook mentor, I used figma and InVision design studio to create a digital wireframe of the application. The purpose of this wireframe was to animate any components/test the use and feel of the design choices before implementation. Tap gestures and hold-touches were simulated with animations in InVision, and the official brandnig/icons/color scheme were documented and approved for implementation in ths step as well. Some changes that were made between this wireframe and the official implementation of the app (with the exception of a few icons and design choices) was the transition from a "wishlist" tab to a news tab after a bit of user testing within the Facebook developer community.</div>
+                </div>
+            </div>
+            <div class="imageHeader"><img src="img/ds_hifi.png"></div>
+            <div class="imageHeader"><img src="img/dsbranding.png"></div>
+            <div id="footer2" style="padding-top: 50px">
+                <div class="masthead1">
+                    <div class="footerTitle3">Part 2</div>
+                    <div class="footerTitle4" style="padding-top: 10px">Scraper & Data Population</div>
+                    <div class="smallBlack">Due to a lack of developer-friendly and publicialy shared sneaker data (APIs etc), I decided to create a StockX web scraper from scratch. For more in-depth information on the technical implementation of the scraper, check out the GitHub repo <a href="https://github.com/pranathip/DeadStock" style="color: #AE3A6C">here</a>. A general explanation of the tools/python libraries used for the scraper is as follows:</div>
+                    <br>
+                    <div class="footerTitle3">URL Scraper</div>
+                    <div class="smallBlack">Scraped 5-700 sneaker maini-page links from the StockX year-by-year breakdown page using <a href="https://selenium-python.readthedocs.io/" style="color: #AE3A6C">selenium</a>, a python binding thatt allows developers to access Selenium WebDrivers; in this case, I used selenium to compile a list of URLs according to specific product parameters (i.e. Jordan 1, Nike, made before the year 2016, etc.).</div>
+                    <br>
+                    <div class="footerTitle3">SNEAKER DATA SCRAPER</div>
+                    <div class="smallBlack">Accessed each URL specified by the URL scraper using <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/" style="color: #AE3A6C">Beautiful Soup</a> to extract specific information from the webpage by isolating html identifiers and dividers by their class name, content, and more. Was able tto extract data specified earlier in this spec (52-week high/low, volatility, colorway, background, retail price) etc. using this method.</div>
+                </div>
+            </div>
+            <div id="footer2" style="padding-top: 50px">
+                <div class="masthead1">
+                    <div class="footerTitle3">Part 3</div>
+                    <div class="footerTitle4" style="padding-top: 10px">Objective C & Parse Implementation</div>
+                    <div class="smallBlack">For more information on the official implementation and development process, visit the GitHub repo <a href="https://github.com/pranathip/DeadStock" style="color: #AE3A6C">here</a>.</div>
+                    <br>
+                    <div class="footerTitle3">Database Models</div>
+                    <div class="smallBlack">Using Parse/Firebase, I was able to perform User Authentication/object storage. To do so, I created several of my own objects, including User objects, Sneaker Objects, News Article objects, and more. Here is an example of the model elements/schema of a sneaker object stored in the Parse database:</div>
+                </div>
+            </div>
+            <div id="footer2" style="padding-top: 50px">
+                <div class="masthead1">
+                    <div class="footerTitle3">Part 4</div>
+                    <div class="footerTitle4" style="padding-top: 10px">Final Deliverable</div>
+                </div>
+            </div>
+            <div id="footer2">
+                <div class="masthead1">
+                    <div class="footerTitle3">Final Thoughts</div>
+                    <div class="smallBlack">Overall, this was a really fun project and great way to spend my summer. It was my first attempt at creating an industry-level iOS application, and expanding my design knowledge beyond mockups and prototypes - I gained an understanding for <strong style="color:#AE3A6C">"designing for production,"</strong> and the effort it takes too translate certain design choices to iOS. Additionally, I got great advice from Product Designers at Facebook for documenting my design process, and helping me craft my design around certain metrics and parameters.</div>
+                </div>
+            </div>
+            <div id="column">
+                <div id="workIn">
+                    <div class="imgRow">
+                        <div class="imageHeader">
+                            <video width="60%" autoplay loop muted>
+                                <source src="img/ds.mp4" type="video/mp4">
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
 
-	<!--<div class="overview-wrapper" id="white">
-		<div class="overview container">
-			<h1>COMING SOON</h1>
-			<p>The Hype Advisor is a hedgefund that aims to democratize access to investment in the streetwear market. The group accepts applications for investors, and uses the acquired capital to invest in fast-growing streetwear items like shoes, clothing, and more.</p>
-		</div>
-		<div class="overview container">
-			<h1>Design Application</h1>
-			<p>In order to keep their investors aware and updated on the investments they're making, The Hype Advisor team wanted to begin designing/implementing a mobile app to allow users to see this information. The application would have the ability to show a user their investment amount, allow them to add more funds, and view the breakdown of their current investment/information about the items that are being invested in.</p>
-		</div>
-		<div class="overview container">
-			<h1>Role(s)</h2>
-			<p>Product and Visual Designer</p>
-		</div>
-	</div>
-	<div class="overview-wrapper" id="pink">
-		<div class="overview container">
-			<h1>Project Objective</h1>
-			<p>Create an interactive mockup that shows the design and usability of The Hype Advisor mobile app, using insights from user research.</p>
-		</div>
-	</div>
+                        <div class="imageHeader">
+                            <video width="60%" autoplay loop muted>
+                                <source src="img/ds 2.mp4" type="video/mp4">
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
 
-	<div class="overview-wrapper" id="white">
-		<div class="overview container">
-			<h1>part 1</h1>
-			<h2>User Research</h2>
-		</div>
-		<div class="overview container">
-			<h1>User Personas</h1>
-			<p>The Hype Advisor has around 20-30 investors, and all of them have very uniform/similar knowledge on the streetwear industry. As a first step, I interviewed several investors, developing an archetypical user persona for the application with certain goals and requirements that could be met with the mobile application.</p>
-			<img src="img/tha/hauserpersona.png" width="1100px"/>
-		</div>
-		<div class="overview container" style="padding-top: 80px">
-			<h1>Screen Archetypes</h1>
-			<p>After taking into account what the typical investor wanted in an application, I created a list of screens and functionalities that I wanted to prototype. Creating archetypes for each screen with detailed information on which screen transitions to which buttons, functions, etc. helps to create the final interactive wireframe without much trouble.</p>
-			<img src="img/tha/hascreenarch.png" width="1100px" style="padding-top:30px"/>
-		</div>
-	</div>
+                        <div class="imageHeader">
+                            <video width="60%" autoplay loop muted>
+                                <source src="img/ds 3.mp4" type="video/mp4">
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <div class="imageHeader">
+                            <video width="60%" autoplay loop muted>
+                                <source src="img/ds 4.mp4" type="video/mp4">
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        
+        <!--FOOTER-->
+        <div id="footer">
+            <div id="media">
+                <div class="icon">
+                    <div class="footerTitle">Social Media</div>
+                    <a href="https://linkedin.com/in/pranathip" target="_blank"><div class="smallhover">LinkedIn</div></a>
+                    <a href="https://www.instagram.com/mindjunkk/?hl=en" target="_blank"><div class="smallhover">Instagram</div></a>
+                </div>
+                <div class="sideBlanknavbottom"></div>
+                <div class="icon">
+                    <div class="footerTitle">Email</div>
+                    <a href="mailto:pranathiperi@berkeley.edu" target="_blank"><div class="smallhover">Let's chat!</div></a>
+                </div>
+                <div class="sideBlanknavbottom"></div>
+                <div class="icon">
+                    <div class="footerTitle">Resume</div>
+                    <a href="assets/resume.pdf" target="_blank"><div class="smallhover">Click to download</div></a>
+                </div>
+            </div>
+        </div>
 
-	<div class="overview-wrapper" id="pink">
-		<div class="overview container">
-			<h1>part 2</h1>
-			<h2>Wireframing/Prototyping</h2>
-		</div>
-		<div class="overview container">
-			<h1>Low Fidelity Wireframe</h1>
-			<p>Initial sketch of the screen archetypes, and basic planning of color scheme button placement, and transition from screen to screen. Since the objective of this project was to create good visuals, the important aspect to take away from this wireframe are the transitions and placement of various elements of the application. Made using Procreate.</p>
-			<img src="img/tha/hawireframe.png" width="1100px" style="padding-top:30px"/>
-		</div>
-		<div class="overview container">
-			<h1>High Fidelity Wireframe</h1>
-			<p>Made using InVision Design Studio and Figma.</p>
-			<img src="img/tha/hainvision.png" width="1100px" style="padding-top:30px"/>
-		</div>
-	</div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src="scripts/scripts.js"></script>
 
-
-	<div class="overview-wrapper">
-		<div class="overview container">
-			<h2>View an interactive demo <a href="#">here</a>.</h2>
-		</div>
-	</div>-->
-
-	<footer>
-		<script>
-			var options = {
-			classname: 'loading-bar',
-		    id: 'loadingbar'
-			};
-			var nanobar = new Nanobar( options );
-			nanobar.go( 30 );
-			nanobar.go( 76 );
-			nanobar.go(100);
-		</script>
-		<div class="nanobar loading-bar" id="loadingbar" style="position: fixed;">
-	    	<div class="bar"></div>
-		</div>
-	</footer>
-
-</body>
+    </body>
 </html>

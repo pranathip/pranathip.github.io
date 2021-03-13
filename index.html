@@ -1,35 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Pranathi Peri</title>
-	
-	<!-- Properties -->
-	<meta property="og:title" content="Pranathi Peri" />
-	<meta property="og:description" content="" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:site_name" content="Pranathi Peri - Portfolio" />
-	<meta name="image" property="og:image" content="https://pranathiperi.me/img/front.png" />
-	<meta property="og:url" content="https://pranathiperi.me/" />
-	<meta property="og:image:width" content="50" />
-	<meta property="og:image:height" content="50" />
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Pranathi Peri</title>
+        <link rel="shortcut icon" type="image/png" href="img/shoe.png"/>
+        
+        <!-- Properties -->
+	    <meta property="og:locale" content="en_US" />
+	    <meta name="image" property="og:image" content="https://pranathiperi.me/img/front.png" />
+	    <meta property="og:url" content="https://pranathiperi.me/" />
+	    <meta property="og:image:width" content="50" />
+	    <meta property="og:image:height" content="50" />
+        
+        <!--Responsive-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- script and stylesheets -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="fonts/stylesheet.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-	<script src="js/nanobar.min.js"></script>
+        <!--Font-->
 
-	<!-- favicon -->
-	<link rel="icon" type="image/png" href="img/favicon.png"/>
-
-	<!-- Analytics -->
+        <!--Link to stylesheets-->
+        <link rel="stylesheet" href="styles/stylesIndex.css" type="text/css">
+        <link rel="stylesheet" href="fonts/stylesheet.css">
+        
+        <!-- Analytics -->
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165298698-1"></script>
 	<script>
@@ -39,55 +33,149 @@
 
 	  gtag('config', 'UA-165298698-1');
 	</script>
+        
+    </head>
 
-</head>
-<body id="index">
+    <body>
+        <!--NAV-->
+        <div class="nav" data-color="#fff">
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle"/>
+            <div class="menu">
+                <div class="home"><a href="index.html"><img src="img/logo.png" width=130></a></div>
+                <div class="side">
+                    <a href="index.html" class="navTitleLanding">Work</a>
+                    <div class="sideBlanknav"></div>
+                    <a href="play.html" class="navTitle">Play</a>
+                    <div class="sideBlanknav"></div>
+                    <a href="about.html" class="navTitle">About</a>
+                    <div class="sideBlanknav"></div>
+                    <a href="assets/resume.pdf" class="navTitle" style="color:#AE3A6C">Resume</a>
+                </div>
+            </div>
 
-	<!-- nav bar -->
-	<nav id="nav" class="navbar navbar-expand-lg navbar-light index-navbar fade-in">
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="index-navbar fa fa-bars"></span>
-	  </button>
-	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-	    <div class="navbar-nav">
-	      <li><a class="nav-item nav-link"href="work.html">Work</a></li>
-	      <li><a class="nav-item nav-link" href="play.html">Play</a></li>
-	      <li><a class="nav-item nav-link" href="about.html">About</a></li>
-	    </div>
-	  </div>
-	</nav>
+            <div class="clear"></div>
+        </div>
 
-	<div class="home-jumbotron container-fluid vertical-center fade-in">
-		<h1>Hey, I'm Pranathi<span style="color:#FB9B8E;">.</span></h1>
-	</div>
+        <div id="contentIndex">
+            <div id="masthead" data-color="#020202">
+                <div class="masthead1">
+                    Hi, I'm <b>Pranathi</b>! I'm a <b>Product Designer</b> and <b>Software Engineer</b> based in Berkeley, CA.&nbsp;<img src="img/shoe.png">
+                </div>
+            </div>
 
-	<div class="blob fade-in">
-		<img id="pulseAnimation" src="img/blob1_2.png"/>
-	</div>
+            <div id="footer2" data-color="AE3A6C">    
+                <div class="copyright2"><a href="#column" class="smallhover">TAKE A PEEK AT MY WORK ↓</a></div>
+            </div>
 
-	<div class="home-subheader fade-in">
-		<h2>EECS major at <span style="color:#FB9B8E;">UC Berkeley</span></h2>
-		<h2>Incoming software engineering intern at <span style="color:#FB9B8E;">Facebook</span></h2>
-		<h2>Product, interaction, and UX designer</h2>
-		<h2>Self-proclaimed sneakerhead >:)</h2>
-	</div>
+            <!--WORK-->
+            <div id="column">
+                <div id="workIn">
+                    <div class="imgRow">
+                        <div class="imageHeader">
+                            <video width="60%" autoplay loop muted>
+                                <source src="img/ds.mp4" type="video/mp4">
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
 
-<footer>
-	<script>
-		var options = {
-		classname: 'loading-bar',
-	    id: 'loadingbar'
-		};
-		var nanobar = new Nanobar( options );
-		nanobar.go( 30 );
-		nanobar.go( 76 );
-		nanobar.go(100);
-	</script>
-	<div class="nanobar loading-bar" id="loadingbar" style="position: fixed;">
-    	<div class="bar"></div>
-	</div>
-</footer>
+                        <div class="imageHeader">
+                            <video width="60%" autoplay loop muted>
+                                <source src="img/ds 2.mp4" type="video/mp4">
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
 
-</body>
+                        <div class="imageHeader">
+                            <video width="60%" autoplay loop muted>
+                                <source src="img/ds 3.mp4" type="video/mp4">
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <div class="imageHeader">
+                            <video width="60%" autoplay loop muted>
+                                <source src="img/ds 4.mp4" type="video/mp4">
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                    </div>
 
+                    <div class="detail">
+                        <div class="detailTitle">
+                            <a href="deadstock.html"><h2><b>DeadStock - Facebook University Intern (2020)</b></h2></a>
+                            <div class="small">An iOS application designed to monitor sneaker prices & view sneaker news inspired by robinhood's investment platform.</div>
+                        </div>
+                    </div>    
+                    <div class="copyright2"><a href="deadstock.html" class="smallhover" style="color:#fff">CHECK IT OUT →</a></div>
+                </div>
+
+                <div id="work">
+                    <div id="workIn">
+                    <div class="imgRow">
+                        <div class="imageHeader">
+                            <video width="60%" autoplay loop muted>
+                                <source src="img/bm1.mp4" type="video/mp4">
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+
+                        <div class="imageHeader">
+                            <video width="60%" autoplay loop muted>
+                                <source src="img/bm2.mp4" type="video/mp4">
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+
+                        <div class="imageHeader">
+                            <video width="60%" autoplay loop muted>
+                                <source src="img/bm3.mp4" type="video/mp4">
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                        <div class="imageHeader">
+                            <video width="60%" autoplay loop muted>
+                                <source src="img/bm4.mp4" type="video/mp4">
+                                Sorry, your browser doesn't support embedded videos.
+                            </video>
+                        </div>
+                    </div>
+
+                    <div class="detail">
+                        <div class="detailTitle">
+                            <a href="deadstock.html"><h2><b>Berkeley Mobile - Product Design Lead (2020)</b></h2></a>
+                            <div class="small">Berkeley's flagship campus mobile application providing resources and helpful information for students operating remotely and in-person.</div>
+                        </div>
+                    </div>
+                        <div class="copyright2"><a href="bm.html" class="smallhover" style="color:#fff">CHECK IT OUT →</a></div>
+                </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <!--FOOTER-->
+        <div id="footer">
+            <div id="media">
+                <div class="icon">
+                    <div class="footerTitle">Social Media</div>
+                    <a href="https://linkedin.com/in/pranathip" target="_blank"><div class="smallhover">LinkedIn</div></a>
+                    <a href="https://www.instagram.com/mindjunkk/?hl=en" target="_blank"><div class="smallhover">Instagram</div></a>
+                </div>
+                <div class="sideBlanknavbottom"></div>
+                <div class="icon">
+                    <div class="footerTitle">Email</div>
+                    <a href="mailto:pranathiperi@berkeley.edu" target="_blank"><div class="smallhover">Let's chat!</div></a>
+                </div>
+                <div class="sideBlanknavbottom"></div>
+                <div class="icon">
+                    <div class="footerTitle">Resume</div>
+                    <a href="assets/resume.pdf" target="_blank"><div class="smallhover">Click to download</div></a>
+                </div>
+            </div>
+        </div>
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src="scripts/scripts.js"></script>
+
+    </body>
 </html>
