@@ -225,6 +225,10 @@ label {
     /*margin-right: 20%;*/
 }
 
+.masthead1 img {
+    width: 6%;
+}
+
 .changeFontColor {
     color: #fff;
 }
